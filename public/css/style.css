@@ -1,0 +1,257 @@
+@font-face {
+	font-family: MicroExtendFLF;
+	src: url("../font/micro.ttf");
+}
+
+@font-face {
+	font-family: MicroExtendFLF Bold;
+	src: url("../font/micro_bold.ttf");
+}
+
+* {
+	font-family: MicroExtendFLF;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #000000 !important;
+	padding-top: 85px;
+	min-height: 120vh;
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	background-color: #181818;
+	overflow: hidden;
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 15px;
+}
+
+footer h4 {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+nav {
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 30px;
+}
+
+nav a.nav-link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav a.nav-link:hover {
+	transition: .2s;
+	background-color: #E8BF00;
+	color: #990000;
+}
+
+nav a.active {
+	background-color: #990000;
+	color: #E8BF00;
+}
+
+ul a.nav-link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+ul a.nav-link:hover {
+	transition: .2s;
+	background-color: #E8BF00;
+	color: #990000;
+}
+
+ul a.active {
+	background-color: #990000 !important;
+	color: #E8BF00 !important;
+}
+
+.category-nav {
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 2px;
+}
+
+.navbar {
+	background-image: url("../img/bg_nav.jpg");
+}
+
+.ft-feature {
+	background-color: #9C0607;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.ft-feature h3 {
+	font-family: MicroExtendFLF Bold;
+}
+
+p a {
+	color: #E8BF00;
+}
+
+p a:hover {
+	color: #9C0607;
+}
+
+
+.ft-article h4:hover {
+	color: #E8BF00;
+}
+
+.ft-article h5:hover {
+	color: #E8BF00;
+}
+
+.ft-emcee {
+	background-color: #9C0607;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.ft-emcee h1 {
+	font-family: MicroExtendFLF Bold;
+	color: #E8BF00;
+}
+
+.ft-emcee h4 {
+	font-family: MicroExtendFLF Bold;
+	color: #E8BF00;
+}
+
+.ft-emcee-feature {
+	background-color: #202020;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.ft-emcee-feature h3 {
+	font-family: MicroExtendFLF Bold;
+}
+
+.ft-emcee-desc {
+	background-color: #202020;
+	padding: 15px;
+	width: 100%;
+	text-align: left;
+}
+
+.ft-soc a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.ft-soc i:hover {
+	color: #E8BF00;
+}
+
+.ft-about i {
+	color: #000000;
+}
+
+.ft-year span {
+	color: #000000;
+	font-size: 15px;
+}
+
+.ft-about-home {
+	font-family: MicroExtendFLF Bold;
+}
+
+.ft-about-title {
+	font-family: MicroExtendFLF Bold;
+	color: #E8BF00;
+}
+
+.row a {
+	text-decoration: none;
+}
+
+.page-item.active .page-link, .page-item.active:hover .page-link {
+	color: #E8BF00 !important;
+	background: #9C0607 !important;
+	border-color: #9C0607 !important;
+}
+
+.pagination .page-link {
+    color: #9C0607;
+}
+
+.pagination .page-link:hover {
+	background-color: #E8BF00;
+    color: #9C0607;
+   	border-color: #E8BF00 !important;
+}
+
+.modal-content {
+	background-color: #670303 !important;
+}
+
+.youtube-player {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin: 5px;
+}
+
+.youtube-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: transparent;
+}
+
+.youtube-player img {
+    object-fit: cover;
+    display: block;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    height: auto;
+    cursor: pointer;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    transition: 0.4s all;
+}
+
+.youtube-player img:hover {
+    -webkit-filter: brightness(75%);
+}
+
+.youtube-player .play {
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url('//i.imgur.com/TxzC70f.png') no-repeat;
+    cursor: pointer;
+}
