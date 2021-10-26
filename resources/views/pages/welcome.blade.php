@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 	<head>
+		<title> FlipTop Battle League </title>
+
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:url"                content="https://www.fliptop.com.ph" />
+		<meta property="og:title"              content="FlipTop Battle League" />
+		<meta property="og:description"        content="The First Filipino Rap Battle League" />
+		<meta property="og:image"              content="{{ URL::asset('/img/bg_og.jpg') }}" />
+		<meta name="twitter:card"              content="summary_large_image">
 
 		<link rel="icon" href="{{ URL::asset('/favicon.png') }}" type="image/x-icon"/>
 		<link rel="icon" href="{{ URL::asset('/favicon-128.png') }}" type="image/x-icon" sizes="128x128">
@@ -15,10 +23,13 @@
 
 	</head>
 
-<title> FlipTop Battle League </title>
-
 	<div class="container-xxl">
-		<center> <img src="{{ URL::asset('/img/logo.png') }}"> </center>
+		<center> 
+			<img src="{{ URL::asset('/img/logo.png') }}"> 
+				<h3> Process of Illumination 7 Tryouts </h3>
+				<p> Submissions have ended. Stay tuned for upcoming announcements! </p>
+				<strong> #FlipTop2021 #FlipTopPOI7 </strong>
+		</center>
 		<hr>
 		<div class="row">
 				<h3> Latest Battles: </h3>

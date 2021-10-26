@@ -33,7 +33,7 @@ Route::get('/videos/battle/search', [PagesController::class, 'searchBattle']);
 Route::get('/videos/perf', [PagesController::class, 'videosPerf']);
 Route::get('/videos/segment', [PagesController::class, 'videosSegment']);
 
-Route::get('/radio', [PagesController::class, 'radio']);
+/*Route::get('/radio', [PagesController::class, 'radio']);*/
 
 Route::get('/promos', [PagesController::class, 'promos']);
 /* Route::post('/promos/yield-qr', [PagesController::class, 'eventQr']); */
@@ -41,22 +41,21 @@ Route::get('/promos', [PagesController::class, 'promos']);
 Route::get('/lyrics', [PagesController::class, 'lyrics']);
 Route::get('/lyrics/search', [PagesController::class, 'searchLyric']);
 
-/* Route::get('/tryouts', [PagesController::class, 'tryouts']); */
 Route::get('/about', [PagesController::class, 'about']);
 
 /* Individual Pages */
 
 Route::get('articles/{slug}', function($slug){
     $article = App\Models\Post::where('slug', '=', $slug)->firstOrFail();
-    $read_also = App\Models\Post::inRandomOrder()->paginate(4);
-    $ads = App\Models\Ad::inRandomOrder()->paginate(4);
+    $read_also = App\Models\Post::where('status', '=', 'PUBLISHED')->inRandomOrder()->take(4)->get();
+    $ads = App\Models\Ad::inRandomOrder()->take(4)->get();
 
     return view('single.article', compact('article', 'read_also', 'ads'));
 });
 
 Route::get('articles/category/{slug}', function($slug){
     $category = App\Models\Category::where('slug', '=', $slug)->firstOrFail();
-    $articles = App\Models\Post::orderByDesc('id')->paginate(6);
+    $articles = App\Models\Post::all()->where('status', '=', 'PUBLISHED')->sortByDesc('id');
     $categories = App\Models\Category::all();
 
     return view('single.category', compact('category', 'articles', 'categories'));

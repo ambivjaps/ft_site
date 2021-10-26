@@ -28,21 +28,21 @@
     </nav>
 
       	@foreach($articles as $article)
-        <div class="col-md-4 my-4">
+          <div class="col-md-4 my-4">
+            <a href="/articles/{{ $article->slug }}">
+              <img src="{{ Voyager::image( $article->image ) }}" style="width:100%">
+            </a>
+            
+            <a href="/articles/{{ $article->slug }}">
+              <div class="ft-article"><h4 class="mt-3">{{ $article->title }}</h4></div>
+            </a>
 
-          <a href="/articles/{{ $article->slug }}">
-            <img src="{{ Voyager::image( $article->image ) }}" style="width:100%">
-          </a>
-          
-          <a href="/articles/{{ $article->slug }}">
-            <div class="ft-article"><h4 class="mt-3">{{ $article->title }}</h4></div>
-          </a>
+            <h6> By {{ $article->author_name }} </h6>
+            <hr>
+            <p> {{ $article->excerpt }} </p>
+            <a class="btn btn-warning" href="/articles/{{ $article->slug }}" role="button">Read more</a>
+          </div>
 
-          <h6> By {{ $article->author_name }} </h6>
-          <hr>
-          <p> {{ $article->excerpt }} </p>
-          <a class="btn btn-warning" href="/articles/{{ $article->slug }}" role="button">Read more</a>
-        </div>
       	@endforeach
 
     	</div>

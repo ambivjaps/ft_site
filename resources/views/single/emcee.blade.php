@@ -6,7 +6,7 @@
 
 @section('meta')
 <meta property="og:url"                content="https://www.fliptop.com.ph/emcees/{{ $emcee->slug }}" />
-<meta property="og:title"              content="{{ $emcee->name }} | FlipTop Battle League" />
+<meta property="og:title"              content="Emcee: {{ $emcee->name }} | FlipTop Battle League" />
 <meta property="og:description"        content="Reppin: {{ $emcee->reppin }} | Division: {{ $emcee->division }}" />
 <meta property="og:image"              content="{{ Voyager::image( $emcee->image ) }}" />
 <meta name="description"  			   content="Reppin: {{ $emcee->reppin }} | Division: {{ $emcee->division }}" />

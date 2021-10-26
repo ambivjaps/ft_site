@@ -33,7 +33,6 @@
 
 		<div class="row mt-3 mb-5">
       		@foreach($emcees as $emcee)
-	      		@if($emcee->division == "Calabarzon")
 	        	<div class="col-md-3 my-4">
 
 	          	<a href="/emcees/{{ $emcee->slug }}">
@@ -42,10 +41,13 @@
 	            <div class="ft-emcee"><h4 class="text-uppercase">{{ $emcee->name }}</h4></div>
 	          	</a>
     			</div>
-    			@endif
-      	@endforeach
+      		@endforeach
 
-	</div>
-  </div> 
+		</div>
+
+		<ul class="pagination pagination-sm justify-content-end flex-wrap">
+		{!! $emcees->links() !!}
+		</ul>
+  	</div> 
 
 @endsection

@@ -26,10 +26,10 @@ class PagesController extends Controller
 	public function index()
 	{
 		$slides = Slide::all();
-		$articles = Post::orderByDesc('id')->paginate(3);
-    	$battles = Battle::orderByDesc('id')->paginate(3);
-    	$perfs = Performance::orderByDesc('id')->paginate(3);
-    	$segments = SegmentVid::orderByDesc('id')->paginate(3);
+		$articles = Post::where('status', '=', 'PUBLISHED')->orderByDesc('id')->take(3)->get();
+    	$battles = Battle::orderByDesc('id')->take(3)->get();
+    	$perfs = Performance::orderByDesc('id')->take(3)->get();
+    	$segments = SegmentVid::orderByDesc('id')->take(3)->get();
 
     	return view('pages.index', compact('slides', 'articles', 'battles', 'perfs', 'segments'));
 	}
@@ -38,7 +38,7 @@ class PagesController extends Controller
 
 	public function articles() 
 	{
-		$articles = Post::orderByDesc('id')->paginate(20);
+		$articles = Post::where('status', '=', 'PUBLISHED')->orderByDesc('id')->paginate(20);
 		$categories = Category::all();
 
    	 	return view('pages.articles', compact('articles', 'categories'));
@@ -55,35 +55,35 @@ class PagesController extends Controller
 
 	public function emceesMM()
 	{
-		$emcees = Emcee::all()->sortBy('name');
+		$emcees = Emcee::where('division', '=', 'Metro Manila')->orderBy('name')->paginate(20);
 
 		return view('emcees.mm', compact('emcees'));
 	}
 
 	public function emceesCLuzon()
 	{
-		$emcees = Emcee::all()->sortBy('name');
+		$emcees = Emcee::where('division', '=', 'Central Luzon')->orderBy('name')->paginate(20);
 
 		return view('emcees.cluzon', compact('emcees'));
 	}
 
 	public function emceesCala()
 	{
-		$emcees = Emcee::all()->sortBy('name');
+		$emcees = Emcee::where('division', '=', 'Calabarzon')->orderBy('name')->paginate(20);
 
 		return view('emcees.cala', compact('emcees'));
 	}
 
 	public function emceesVis()
 	{
-		$emcees = Emcee::all()->sortBy('name');
+		$emcees = Emcee::where('division', '=', 'Visayas')->orderBy('name')->paginate(20);
 
 		return view('emcees.vis', compact('emcees'));
 	}
 
 	public function emceesMin()
 	{
-		$emcees = Emcee::all()->sortBy('name');
+		$emcees = Emcee::where('division', '=', 'Mindanao')->orderBy('name')->paginate(20);
 
 		return view('emcees.min', compact('emcees'));
 	}
@@ -92,13 +92,13 @@ class PagesController extends Controller
 
 	public function videos() 
 	{
-		$battles = EventBattle::orderByDesc('id')->paginate(4);
-    	$perfs = EventPerformance::orderByDesc('id')->paginate(4);
-    	$segments = Segment::orderBy('id')->paginate(4);
+		$battles = EventBattle::orderByDesc('id')->take(4)->get();
+    	$perfs = EventPerformance::orderByDesc('id')->take(4)->get();
+    	$segments = Segment::orderBy('id')->take(4)->get();
 
-    	$vid_battles = Battle::orderByDesc('id')->paginate(1);
-    	$vid_perfs = Performance::orderByDesc('id')->paginate(1);
-    	$vid_segments = SegmentVid::orderByDesc('id')->paginate(1);
+    	$vid_battles = Battle::orderByDesc('id')->take(1)->get();
+    	$vid_perfs = Performance::orderByDesc('id')->take(1)->get();
+    	$vid_segments = SegmentVid::orderByDesc('id')->take(1)->get();
 
     	return view('pages.videos', compact('battles', 'perfs', 'segments', 'vid_battles', 'vid_perfs', 'vid_segments'));
 	}
@@ -124,7 +124,7 @@ class PagesController extends Controller
     	return view('videos.segment', compact('segments'));
 	}
 
-	/* Radio */
+	/* Radio 
 
 	public function radio() 
 	{
@@ -132,6 +132,8 @@ class PagesController extends Controller
 
     	return view('pages.radio', compact('stations'));
 	}
+
+	*/
 
 	/* Promos */
 
@@ -169,12 +171,6 @@ class PagesController extends Controller
 		$lyrics = Lyric::orderBy('title')->paginate(50);
 
 		return view('pages.lyrics', compact('lyrics'));
-	}
-
-	/* Tryouts */
-
-	public function tryouts() {
-		return view('pages.tryouts');
 	}
 
 	/* About */

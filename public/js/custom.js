@@ -10,17 +10,14 @@ if (url.includes("articles")) {
 } else if (url.includes("videos")) {
   navLinks[3].classList.add("active");
 
-} else if (url.includes("radio")) {
+} else if (url.includes("promos")) {
   navLinks[4].classList.add("active");
 
-} else if (url.includes("promos")) {
+} else if (url.includes("lyrics")) {
   navLinks[5].classList.add("active");
 
-} else if (url.includes("lyrics")) {
-  navLinks[6].classList.add("active");
-
 } else if (url.includes("about")) {
-  navLinks[7].classList.add("active");
+  navLinks[6].classList.add("active");
 
 } else {
   navLinks[0].classList.add("active");

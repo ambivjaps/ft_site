@@ -20,7 +20,7 @@
 
     <nav class="category-nav">
       <ul class="nav nav-pills nav-fill">
-        <li class="nav-item"> <a class="nav-link" aria-current="page" href="/articles"> All </a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/articles"> All </a> </li>
         @foreach($categories as $nav)
         <li class="nav-item"> <a class="nav-link" href="/articles/category/{{ $nav->slug }}"> {{ $nav->name }} </a> </li>
         @endforeach

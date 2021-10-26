@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 	<head>
+		<title> Error 404 | FlipTop Battle League </title>
+
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:title"              content="Error 404 | FlipTop Battle League" />
+		<meta property="og:description"        content="The First Filipino Rap Battle League" />
+		<meta property="og:image"              content="{{ URL::asset('/img/bg_og.jpg') }}" />
+		<meta name="twitter:card"              content="summary_large_image">
 
 		<link rel="icon" href="{{ URL::asset('/favicon.png') }}" type="image/x-icon"/>
 		<link rel="icon" href="{{ URL::asset('/favicon-128.png') }}" type="image/x-icon" sizes="128x128">
@@ -15,11 +22,11 @@
 
 	</head>
 
-<title> Error 404 - FlipTop Battle League </title>
 
-	<div class="container-xxl">
+
+	<div class="container">
 		<div class="row my-5">
-			<div class="col-md-8">
+			<div class="col-md-9">
 				<h1> <img width="10%" src="{{ URL::asset('/img/ft_icon.png') }}"> Page not found. </h1>
 				<i> The page you are looking for does not exist, is changed, or currently not available. </i>
 				<a class="btn btn-warning mt-4" href="{{ URL::asset('/') }}" role="button">Go back to website</a>
