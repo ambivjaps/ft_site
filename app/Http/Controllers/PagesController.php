@@ -38,7 +38,7 @@ class PagesController extends Controller
 
 	public function articles() 
 	{
-		$articles = Post::where('status', '=', 'PUBLISHED')->orderByDesc('id')->paginate(20);
+		$articles = Post::where('status', '=', 'PUBLISHED')->orderByDesc('id')->paginate(12);
 		$categories = Category::all();
 
    	 	return view('pages.articles', compact('articles', 'categories'));
