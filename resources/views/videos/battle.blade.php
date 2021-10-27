@@ -57,7 +57,7 @@
 		</div>
 
 		<ul class="pagination pagination-sm justify-content-end flex-wrap">
-		{!! $battles->links() !!}
+		{!! $battles->onEachSide(5)->links() !!}
 		</ul>
 
   	</div> 
