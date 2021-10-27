@@ -14,7 +14,7 @@
 
 @section('content')
 
-	<div class="container-xxl">
+	<div class="container">
 
 		<div class="row mt-5">
 

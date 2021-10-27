@@ -14,7 +14,7 @@
 
 @section('content')
 
-	<div class="container-xxl">
+	<div class="container">
 		<div class="row mt-5"> <center> <img src="{{ URL::asset('img/ft_radio.png') }}" title="FlipTop Radio"> </center> </div>
 		<div class="row my-5">
 		@foreach($stations as $station)

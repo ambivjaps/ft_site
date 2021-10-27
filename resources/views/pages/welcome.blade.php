@@ -23,7 +23,7 @@
 
 	</head>
 
-	<div class="container-xxl">
+	<div class="container">
 		<center> 
 			<img src="{{ URL::asset('/img/logo.png') }}"> 
 				<h3> Process of Illumination 7 Tryouts </h3>

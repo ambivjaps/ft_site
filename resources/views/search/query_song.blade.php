@@ -14,7 +14,7 @@
 
 @section('content')
 
-	<div class="container-xxl">
+	<div class="container">
 
 		<div class="form-group mt-5">
 			<form type="get" action="{{ url('/lyrics/search') }}">
