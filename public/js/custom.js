@@ -17,7 +17,7 @@ if (url.includes("articles")) {
   navLinks[5].classList.add("active");
 
 } else if (url.includes("about")) {
-  navLinks[6].classList.add("active");
+  navLinks[7].classList.add("active");
 
 } else {
   navLinks[0].classList.add("active");
