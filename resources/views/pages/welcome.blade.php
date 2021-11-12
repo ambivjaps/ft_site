@@ -34,22 +34,21 @@
 		<div class="row">
 				<h3> Latest Battles: </h3>
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/23agp8pFHEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Akt vs Mastafeat </h4>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/WxmAY4Qrodk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Plazma vs Marshall Bonifacio </h4>
+				<p> Non-Tournament | Zoning 13 </p>
+			</div>
+			<div class="col-md-4">
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/sZjjvoJXajY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> SirDeo vs Vitrum </h4>
 				<p> Non-Tournament | Zoning 13 </p>
 			</div>
 
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/84zTU423C4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Range vs Harlem </h4>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/-kbb9YSmDu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> K-Ram vs JDee </h4>
 				<p> Non-Tournament | Zoning 13 </p>
 			</div>	
-
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/1d44YlxPrQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Illtimate vs Duma </h4>
-				<p> Non-Tournament | Unibersikulo 9 </p>
-			</div>
 		</div>
 		<hr>
 		<div class="row">
