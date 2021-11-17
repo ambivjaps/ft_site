@@ -31,7 +31,10 @@
 				</div>
 				<hr>
 				<img src="{{ Voyager::image( $article->image ) }}" style="width:100%">
-				<p class="my-4">{!! $article->body !!}</p>
+				
+				<div class="ft-body my-4">
+					{!! $article->body !!}
+				</div>
 			</div>
 
 			<div class="col-md-3 my-5">

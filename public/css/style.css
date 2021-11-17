@@ -177,6 +177,15 @@ p a:hover {
 	color: #E8BF00;
 }
 
+.ft-body img {
+	max-width: 100%;
+	height: auto;
+}
+
+.ft-body iframe {
+	max-width: 100%;
+}
+
 .row a {
 	text-decoration: none;
 }
