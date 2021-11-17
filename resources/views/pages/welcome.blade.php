@@ -34,6 +34,11 @@
 		<div class="row">
 				<h3> Latest Battles: </h3>
 			<div class="col-md-4">
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/yrAtwuwJ_MA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Prince Rhyme vs Makii </h4>
+				<p> Non-Tournament | Zoning 13 </p>
+			</div>	
+			<div class="col-md-4">
 				<iframe width="100%" height="250" src="https://www.youtube.com/embed/WxmAY4Qrodk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<h4> Plazma vs Marshall Bonifacio </h4>
 				<p> Non-Tournament | Zoning 13 </p>
@@ -43,12 +48,6 @@
 				<h4> SirDeo vs Vitrum </h4>
 				<p> Non-Tournament | Zoning 13 </p>
 			</div>
-
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/-kbb9YSmDu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> K-Ram vs JDee </h4>
-				<p> Non-Tournament | Zoning 13 </p>
-			</div>	
 		</div>
 		<hr>
 		<div class="row">
