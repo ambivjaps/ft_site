@@ -3,11 +3,12 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-5">
-				<p> © 2021 FlipTop Kru Corp. </p>
+			<div class="col-md-5 mb-2">
+				<a href="{{ URL::asset('/') }}"><img src="{{ URL::asset('img/logo.png') }}" alt="FlipTop Battle League" title="FlipTop Battle League" width="130"></a>
 			</div>
 
-			<div class="col-md-6">
+			<div class="col-md-5">
+				<p> © 2021 FlipTop Kru Corp. </p>
 				<div class="ft-soc">
 					<a href="https://www.facebook.com/fliptop.battleleague" target="_blank"> <i class="fab fa-facebook"></i></a>
 					<a href="https://www.twitter.com/FlipTop_Battles" target="_blank"> <i class="fab fa-twitter"></i></a>
@@ -15,6 +16,7 @@
 					<a href="https://www.instagram.com/fliptopbattles" target="_blank"> <i class="fab fa-instagram"></i></a>
 					<a href="https://www.patreon.com/fliptop" target="_blank"> <i class="fab fa-patreon"></i></a>
 				</div>
+			</div>
 		</div>
 	</div>
 </footer>
