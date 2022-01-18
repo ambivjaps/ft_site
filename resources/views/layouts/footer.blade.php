@@ -3,25 +3,11 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-2 mb-3">
-				<center>
-					<a href="{{ URL::asset('/') }}"><img src="{{ URL::asset('img/logo.png') }}" alt="FlipTop Battle League" title="FlipTop Battle League" width="160"></a>
-				</center>
-			</div>
-
-			<div class="col-md-5 mb-3">
-				<center> 
-					<h4> The First Filipino Rap Battle League </h4>
-					<div class="ft-about">
-						<a class="btn btn-warning mt-2" href="mailto:partner@fliptop.com.ph" role="button">
- 				 		<i class="fas fa-handshake"></i> Become a partner! </a>
- 				 	</div>
-				</center>
-			</div>
-
 			<div class="col-md-5">
-				<p> © 2021 FlipTop Kru Corp. </p>
-				<hr>
+				<p> © 2022 FlipTop Kru Corp. </p>
+			</div>
+
+			<div class="col-md-6">
 				<div class="ft-soc">
 					<a href="https://www.facebook.com/fliptop.battleleague" target="_blank"> <i class="fab fa-facebook"></i></a>
 					<a href="https://www.twitter.com/FlipTop_Battles" target="_blank"> <i class="fab fa-twitter"></i></a>
@@ -32,6 +18,7 @@
 			</div>
 		</div>
 	</div>
+
 </footer>
 
 	<script src="{{ URL::asset('/js/custom.js') }}"></script>

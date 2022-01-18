@@ -26,7 +26,7 @@ class PagesController extends Controller
 	public function index()
 	{
 		$slides = Slide::all();
-		$articles = Post::where('status', '=', 'PUBLISHED')->orderByDesc('id')->take(3)->get();
+		$articles = Post::where('featured', '=', '1')->orderByDesc('id')->take(3)->get();
     	$battles = Battle::orderByDesc('id')->take(3)->get();
     	$perfs = Performance::orderByDesc('id')->take(3)->get();
     	$segments = SegmentVid::orderByDesc('id')->take(3)->get();

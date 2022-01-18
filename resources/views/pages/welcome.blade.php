@@ -30,24 +30,29 @@
 				<p> Submissions have ended. Stay tuned for upcoming announcements! </p>
 				<strong> #FlipTop2021 #FlipTopPOI7 </strong>
 		</center>
+
+		<center>
+			<iframe class="embedvid" width="100%" height="600" src="https://www.youtube.com/embed/R0E5l9jn4vM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</center>
+
 		<hr>
 		<div class="row">
 				<h3> Latest Battles: </h3>
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/yrAtwuwJ_MA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Prince Rhyme vs Makii </h4>
-				<p> Non-Tournament | Zoning 13 </p>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/AlABY9JeUUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Shernan vs Jonas </h4>
+				<p> Non-Tournament | Ahon 12 (Day 2) </p>
+			</div>
+			<div class="col-md-4">
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/vU1C_QyHsqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Mhot vs Zaito </h4>
+				<p> Non-Tournament | Ahon 12 (Day 2) </p>
+			</div>
+			<div class="col-md-4">
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/-OV0BU4JZLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Goriong Talas vs J-Blaque </h4>
+				<p> Isabuhay 2021 Finals | Ahon 12 (Day 2) </p>
 			</div>	
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/WxmAY4Qrodk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Plazma vs Marshall Bonifacio </h4>
-				<p> Non-Tournament | Zoning 13 </p>
-			</div>
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/sZjjvoJXajY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> SirDeo vs Vitrum </h4>
-				<p> Non-Tournament | Zoning 13 </p>
-			</div>
 		</div>
 		<hr>
 		<div class="row">
@@ -92,11 +97,11 @@
 			</div>
 		</div>
 
-		<hr>
+		<hr class="mb-5">
 
 		<center>
-			<iframe class="embedvid" width="100%" height="600" src="https://www.youtube.com/embed/UK0twoDs5pY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+			<iframe class="embedvid" width="100%" height="600" src="https://www.youtube.com/embed/GKgqOoOPPj4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
 			<div class="ft-about my-5">
 				<a class="btn btn-warning" href="https://www.patreon.com/fliptop" target="_blank" role="button"><i class="fab fa-patreon"></i> Support us on Patreon</a>
 			</div>

@@ -38,9 +38,11 @@
 			</div>
 
 			<div class="col-md-3 my-5">
+				<div class="position-sticky" style="top: 7rem;">
 				@foreach($ads as $ad)
 				<a href="{{ $ad->link }}" target="_blank"><img class="mb-4" src="{{ Voyager::image( $ad->img ) }}" title="{{ $ad->desc }}" alt="{{ $ad->desc }}" style="width:100%"> </a>
 				@endforeach
+				</div>
 			</div>
 				
 		</div><hr>
@@ -52,14 +54,23 @@
 		<div class="row mt-3 mb-5">
 		@foreach($read_also as $read)
 			@if($read->id != $article->id)
-        	<div class="col-md-3 col-6 my-2">
-          		<a href="/articles/{{ $read->slug }}">
-            		<img src="{{ Voyager::image( $read->image ) }}" style="width:100%">
-          		</a>
-          		<a href="/articles/{{ $read->slug }}">
-            		<div class="ft-article"><h5 class="mt-3">{{ $read->title }}</h5></div>
-          		</a>
-        	</div>
+	        <div class="col-md-3 my-3">
+	           <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url('{{ Voyager::image( $read->image ) }}'); background-size: cover;">
+	          <div class="d-flex flex-column h-100 p-3 pb-1 text-white text-shadow-1">
+	              <a href="/articles/{{ $read->slug }}">
+	                <div class="ft-article"><h4 class="pt-5 mt-3 mb-3 display-7 lh-1" style="text-shadow: #000 1px 0 6px;">{{ $read->title }}</h4></div>
+	              </a>
+	              <h6><span class="badge bg-light text-dark"> By {{ $read->author_name }} </span></h6>
+	              <hr>
+
+	            <ul class="d-flex list-unstyled mt-auto">
+	              <li class="d-flex align-items-center">
+	                <a class="btn btn-warning" href="/articles/{{ $read->slug }}" role="button">Read more</a>
+	              </li>
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
         	@endif
 
       @endforeach

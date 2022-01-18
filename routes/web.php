@@ -48,7 +48,7 @@ Route::get('/about', [PagesController::class, 'about']);
 Route::get('articles/{slug}', function($slug){
     $article = App\Models\Post::where('slug', '=', $slug)->firstOrFail();
     $read_also = App\Models\Post::where('status', '=', 'PUBLISHED')->inRandomOrder()->take(4)->get();
-    $ads = App\Models\Ad::inRandomOrder()->take(4)->get();
+    $ads = App\Models\Ad::inRandomOrder()->take(2)->get();
 
     return view('single.article', compact('article', 'read_also', 'ads'));
 });
@@ -88,16 +88,18 @@ Route::get('videos/segment/{slug}', function($slug){
     return view('single.segment', compact('segment', 'videos'));
 });
 
+/*
 Route::get('radio/{slug}', function($slug){
     $station = App\Models\Station::where('slug', '=', $slug)->firstOrFail();
 
     return view('single.station', compact('station'));
-});
+});*/
 
 Route::get('lyrics/{slug}', function($slug){
     $lyric = App\Models\Lyric::where('slug', '=', $slug)->firstOrFail();
+    $ads = App\Models\Ad::inRandomOrder()->take(2)->get();
 
-    return view('single.lyric', compact('lyric'));
+    return view('single.lyric', compact('lyric', 'ads'));
 });
 
 

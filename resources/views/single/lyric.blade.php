@@ -35,6 +35,14 @@
 			<div class="col-md-9 col-md-offset-2">			
 				<p>{!! $lyric->body !!}</p>
 			</div>
+
+			<div class="col-md-3 my-5">
+				<div class="position-sticky" style="top: 7rem;">
+				@foreach($ads as $ad)
+				<a href="{{ $ad->link }}" target="_blank"><img class="mb-4" src="{{ Voyager::image( $ad->img ) }}" title="{{ $ad->desc }}" alt="{{ $ad->desc }}" style="width:100%"> </a>
+				@endforeach
+				</div>
+			</div>
 		</div>
   	</div> 
 

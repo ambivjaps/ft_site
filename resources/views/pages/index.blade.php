@@ -44,6 +44,9 @@
 
 	<div class="container">
 
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="xnjZciI9"></script>
+
     <div class="row my-5">
       <div class="col-md-6">
         <div class="youtube-player" data-id="GKgqOoOPPj4"></div>
@@ -63,24 +66,27 @@
       </div>
     </div>
 
-    <div class="ft-feature"> <h3> LATEST ARTICLES </h3> </div>
+    <div class="ft-feature"> <h3> FEATURED ARTICLES </h3> </div>
 
     <div class="row my-4">
       @foreach($articles as $article)
         <div class="col-md-4 my-3">
-
-          <a href="/articles/{{ $article->slug }}">
-            <img src="{{ Voyager::image( $article->image ) }}" style="width:100%">
-          </a>
-          
-          <a href="/articles/{{ $article->slug }}">
-            <div class="ft-article"><h4 class="mt-3">{{ $article->title }}</h4></div>
-          </a>
-
-          <h6> By {{ $article->author_name }} </h6><hr>
-          <p> {{ $article->excerpt }} </p>
-          <a class="btn btn-warning" href="/articles/{{ $article->slug }}" role="button">Read more</a>
+           <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url('{{ Voyager::image( $article->image ) }}'); background-size: cover;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <a href="/articles/{{ $article->slug }}">
+                <div class="ft-article"><h4 class="pt-5 mt-3 mb-3 display-7 lh-1" style="text-shadow: #000 1px 0 6px;">{{ $article->title }}</h4></div>
+              </a>
+              <h6><span class="badge bg-light text-dark"> By {{ $article->author_name }} </span></h6>
+              <hr>
+              <p style="text-shadow: #000 1px 0 6px;"> {{ $article->excerpt }} </p>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="d-flex align-items-center">
+                <a class="btn btn-warning" href="/articles/{{ $article->slug }}" role="button">Read more</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
       @endforeach
 
     </div>
@@ -99,31 +105,33 @@
 
     </div>
 
-    <div class="ft-feature"> <h3> LIVE PERFORMANCES </h3> </div>
-
-    <div class="row my-3">
-      @foreach($perfs as $perf)
-        <div class="col-md-4 my-3">
+    <div class="row my-3 mb-5">
+      <div class="col-md-4 my-3">
+        <div class="ft-feature mb-3"> <h3> LIVE PERF. </h3> </div>
+          @foreach($perfs as $perf)
           <div class="youtube-player" data-id="{{ $perf->url }}"></div>
 
           <h4>{{ $perf->title }}</h4><hr>
           <p>{{ $perf->event }}</p>
-        </div>
-      @endforeach
+          @endforeach
+      </div>
 
-    </div>
+      <div class="col-md-4 my-3">
+        <div class="ft-feature mb-3"> <h3> SOCIAL MEDIA </h3> </div>
+        <div class="fb-page mb-3" data-href="https://www.facebook.com/fliptop.battleleague" data-tabs="timeline" data-width="500" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fliptop.battleleague" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fliptop.battleleague">FlipTop Battle League</a></blockquote></div>
 
-    <div class="ft-feature"> <h3> LATEST SEGMENTS </h3> </div>
+        <a class="twitter-timeline" data-height="400" href="https://twitter.com/FlipTop_Battles?ref_src=twsrc%5Etfw">Tweets by FlipTop_Battles</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
 
-    <div class="row my-3 mb-5">
-      @foreach($segments as $segment)
-        <div class="col-md-4 my-3">
+      <div class="col-md-4 my-3">
+        <div class="ft-feature mb-3"> <h3> SEGMENTS </h3> </div>
+          @foreach($segments as $segment)
           <div class="youtube-player" data-id="{{ $segment->url }}"></div>
 
-          <h4>{{ $segment->segment }} | {{ $segment->title }} </h4><hr>
-          <p>{{ $segment->desc }}</p>
-        </div>
-      @endforeach
+          <h4>{{ $segment->title }}</h4><hr>
+          <p>{{ $segment->segment }}</p>
+          @endforeach
+      </div>
 
     </div>
   </div> 
