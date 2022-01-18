@@ -60,17 +60,15 @@
 	              <a href="/articles/{{ $read->slug }}">
 	                <div class="ft-article"><h4 class="pt-5 mt-3 mb-3 display-7 lh-1" style="text-shadow: #000 1px 0 6px;">{{ $read->title }}</h4></div>
 	              </a>
-	              <h6><span class="badge bg-light text-dark"> By {{ $read->author_name }} </span></h6>
-	              <hr>
-
+	              
 	            <ul class="d-flex list-unstyled mt-auto">
 	              <li class="d-flex align-items-center">
-	                <a class="btn btn-warning" href="/articles/{{ $read->slug }}" role="button">Read more</a>
+	                <h6><span class="badge bg-light text-dark"> By {{ $read->author_name }} </span></h6>
 	              </li>
 	            </ul>
 	          </div>
 	        </div>
-	      </div>
+	      	</div>
         	@endif
 
       @endforeach
