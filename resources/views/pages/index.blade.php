@@ -118,7 +118,9 @@
 
       <div class="col-md-4 my-3">
         <div class="ft-feature mb-3"> <h3> SOCIAL MEDIA </h3> </div>
-        <div class="fb-page mb-3" data-href="https://www.facebook.com/fliptop.battleleague" data-tabs="timeline" data-width="500" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fliptop.battleleague" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fliptop.battleleague">FlipTop Battle League</a></blockquote></div>
+        <div class="fb-page" data-href="https://www.facebook.com/fliptop.battleleague" data-tabs="timeline" data-width="400" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fliptop.battleleague" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fliptop.battleleague">FlipTop Battle League</a></blockquote></div>
+
+        <br><br>
 
         <a class="twitter-timeline" data-height="400" href="https://twitter.com/FlipTop_Battles?ref_src=twsrc%5Etfw">Tweets by FlipTop_Battles</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>

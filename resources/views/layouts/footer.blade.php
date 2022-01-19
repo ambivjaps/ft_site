@@ -1,44 +1,46 @@
 <div style="flex-grow:1"></div>
 
 <footer>
- 	<div class="row">
-      <div class="col-12 col-md">
-      	<a href="{{ URL::asset('/') }}"><img class="mb-2" src="{{ URL::asset('img/logo.png') }}" alt="FlipTop Battle League" title="FlipTop Battle League"></a>
-      	<small class="d-block mb-3">The First Filipino Rap Battle League</small>
-        <small class="d-block mb-3 text-muted">&copy; 2022 FlipTop Kru Corp.</small>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Content</h5>
-        <ul class="list-unstyled text-small">
-          <li class="mb-1"><a class="link-warning text-decoration-none" href="/articles">Articles</a></li>
-          <li class="mb-1"><a class="link-warning text-decoration-none" href="/emcees">Emcees</a></li>
-          <li class="mb-1"><a class="link-warning text-decoration-none" href="/videos">Videos</a></li>
-          <li class="mb-1"><a class="link-warning text-decoration-none" href="/promos">Promos</a></li>
-          <li class="mb-1"><a class="link-warning text-decoration-none" href="/lyrics">Lyrics</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>About</h5>
-        <ul class="list-unstyled text-small">
-          <li class="mb-1"><a class="link-warning text-decoration-none" href="/about">The League</a></li>
-          <li class="mb-1"><a class="link-warning text-decoration-none" href="https://tryouts.fliptop.com.ph">Tryouts</a></li>
-          <li class="mb-1"><a class="link-warning text-decoration-none" href="#">Privacy</a></li>
-          <li class="mb-1"><a class="link-warning text-decoration-none" href="#">Terms</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        	<div class="ft-soc">
-				<a href="https://www.facebook.com/fliptop.battleleague" target="_blank"> <i class="fab fa-facebook fa-lg"></i></a>
-				<a href="https://www.twitter.com/FlipTop_Battles" target="_blank"> <i class="fab fa-twitter fa-lg"></i></a>
-				<a href="https://www.youtube.com/fliptopbattles" target="_blank"> <i class="fab fa-youtube fa-lg"></i></a>
-				<a href="https://www.instagram.com/fliptopbattles" target="_blank"> <i class="fab fa-instagram fa-lg"></i></a>
-				<a href="https://www.patreon.com/fliptop" target="_blank"> <i class="fab fa-patreon fa-lg"></i></a>
-			</div>
-			<hr>
-			<small class="d-block">Become a partner! E-mail us at:</small>
-			<p>partner@fliptop.com.ph</p>
-      </div>
+  <div class="container">
+   	<div class="row">
+        <div class="col-12 col-md">
+        	<a href="{{ URL::asset('/') }}"><img class="mb-2" src="{{ URL::asset('img/logo.png') }}" alt="FlipTop Battle League" title="FlipTop Battle League"></a>
+        	<small class="d-block mb-2">The First Filipino Rap Battle League</small>
+          <small class="d-block mb-3 text-muted">&copy; 2022 FlipTop Kru Corp.</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Explore</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="/articles">Articles</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="/emcees">Emcees</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="/videos">Videos</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="/promos">Promos</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="/lyrics">Lyrics</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="/about">The League</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="https://tryouts.fliptop.com.ph">Tryouts</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="#">Privacy</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="#">Terms</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <div class="ft-soc">
+  				  <a href="https://www.facebook.com/fliptop.battleleague" target="_blank"> <i class="fab fa-facebook fa-lg"></i></a>
+  				  <a href="https://www.twitter.com/FlipTop_Battles" target="_blank"> <i class="fab fa-twitter fa-lg"></i></a>
+  				  <a href="https://www.youtube.com/fliptopbattles" target="_blank"> <i class="fab fa-youtube fa-lg"></i></a>
+  				  <a href="https://www.instagram.com/fliptopbattles" target="_blank"> <i class="fab fa-instagram fa-lg"></i></a>
+  				  <a href="https://www.patreon.com/fliptop" target="_blank"> <i class="fab fa-patreon fa-lg"></i></a>
+          </div>
+    			<hr>
+    			<small class="d-block">Become a partner:</small>
+    			<h5 class="ft-part">partner@fliptop.com.ph</h5>
+        </div>
     </div>
+  </div>
 </footer>
 
 	<script src="{{ URL::asset('/js/custom.js') }}"></script>
