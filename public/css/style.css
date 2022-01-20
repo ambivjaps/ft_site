@@ -94,6 +94,11 @@ ul a.active {
     transform: scale(0.95); 
 }
 
+.ft-scroll:hover {
+    transition: all .2s ease;
+    transform: scale(0.95); 
+}
+
 .ft-feature {
 	background-color: #9C0607;
 	padding: 10px;
@@ -343,4 +348,34 @@ p a:hover {
 		opacity: 1;
 		transform: rotateX(0);
 	}
+}
+
+.owl-prev {
+	left: 10px;
+}
+
+.owl-next {
+	right: 10px;
+}
+
+.owl-prev, .owl-next {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.owl-prev:hover, .owl-prev:active, .owl-prev:focus, 
+.owl-next:hover, .owl-next:active, .owl-next:focus {
+	outline: 0;
+}
+
+.owl-prev span, .owl-next span {
+	font-size: 50px;
+	color: #FFFFFF;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+	background-color: #9C0607 !important;
 }

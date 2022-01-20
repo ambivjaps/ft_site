@@ -48,7 +48,7 @@
 			@foreach($battles as $battle)
 				<div class="ml-2 mr-2">
 					<a href="/videos/battle/{{ $battle->slug }}">
-						<img src="{{ Voyager::image( $battle->logo ) }}" title="{{ $battle->title }}" style="width:100%">
+						<img class="ft-scroll" src="{{ Voyager::image( $battle->logo ) }}" title="{{ $battle->title }}" style="width:100%">
 						<div class="ft-article"><h4 class="mt-3">{{ $battle->title }}</h4></div>
 					</a>
 					<hr>
@@ -104,7 +104,7 @@
 			@foreach($segments as $segment)
 				<div class="ml-2 mr-2">
 					<a href="/videos/segment/{{ $segment->slug }}">
-						<img src="{{ Voyager::image( $segment->logo ) }}" title="{{ $segment->title }}" style="width:100%">
+						<img class="ft-scroll" src="{{ Voyager::image( $segment->logo ) }}" title="{{ $segment->title }}" style="width:100%">
 						<div class="ft-article"><h4 class="mt-3">{{ $segment->title }}</h4></div>
 					</a>
 					<hr>
