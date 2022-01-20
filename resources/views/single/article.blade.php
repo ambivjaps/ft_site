@@ -22,7 +22,7 @@
 		<div class="row my-5">
 			<div class="col-md-9 col-md-offset-2">
 				<h2>{{ $article->title }}</h2>
-				<h5>By {{ $article->author_name }} </h5>
+				<h5><span class="badge bg-light text-dark"> By {{ $article->author_name }} </span></h5>
 				<h6 style="font-size: 14px">Posted on: {{ $article->created_at->format('F d, Y') }}</h6>
 				<h6 style="font-size: 14px">Updated on: {{ $article->updated_at->format('F d, Y') }}</h6>
 				<div class="ft-soc">
