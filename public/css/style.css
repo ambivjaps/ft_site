@@ -151,6 +151,7 @@ p a:hover {
 .ft-soc a {
 	text-decoration: none;
 	color: #FFFFFF;
+	letter-spacing: 2px;
 }
 
 .ft-soc i:hover {

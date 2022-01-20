@@ -31,10 +31,10 @@
 					<h6><i class="fas fa-sign-in-alt"></i> Year Joined: {{ $emcee->year_joined }}</h6>
 
 					<div class="ft-soc">
-		@if($emcee->link_fb != 0) <a href="{{ $emcee->link_fb }}" target="_blank"> <i class="fab fa-facebook"></i> </a> @endif
-		@if($emcee->link_tw != 0) <a href="{{ $emcee->link_tw }}" target="_blank"> <i class="fab fa-twitter"></i> </a> @endif
-		@if($emcee->link_ig != 0) <a href="{{ $emcee->link_ig }}" target="_blank"> <i class="fab fa-instagram"></i> </a> @endif
-		@if($emcee->link_yt != 0) <a href="{{ $emcee->link_yt }}" target="_blank"> <i class="fab fa-youtube"></i> </a> @endif
+		@if($emcee->link_fb != 0) <a href="{{ $emcee->link_fb }}" target="_blank"> <i class="fab fa-facebook fa-lg"></i> </a> @endif
+		@if($emcee->link_tw != 0) <a href="{{ $emcee->link_tw }}" target="_blank"> <i class="fab fa-twitter fa-lg"></i> </a> @endif
+		@if($emcee->link_ig != 0) <a href="{{ $emcee->link_ig }}" target="_blank"> <i class="fab fa-instagram fa-lg"></i> </a> @endif
+		@if($emcee->link_yt != 0) <a href="{{ $emcee->link_yt }}" target="_blank"> <i class="fab fa-youtube fa-lg"></i> </a> @endif
 					</div>
 				</div><hr>
 

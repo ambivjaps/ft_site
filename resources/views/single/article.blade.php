@@ -26,8 +26,8 @@
 				<h6 style="font-size: 14px">Posted on: {{ $article->created_at->format('F d, Y') }}</h6>
 				<h6 style="font-size: 14px">Updated on: {{ $article->updated_at->format('F d, Y') }}</h6>
 				<div class="ft-soc">
-					<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.fliptop.com.ph/articles/{{ $article->slug }}" target="_blank"> <i class="fab fa-facebook" title="Share to Facebook"></i></a>
-					<a href="https://twitter.com/intent/tweet?url=https://www.fliptop.com.ph/articles/{{ $article->slug }}" target="_blank"> <i class="fab fa-twitter" title="Share to Twitter"></i></a>
+					<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.fliptop.com.ph/articles/{{ $article->slug }}" target="_blank"> <i class="fab fa-facebook fa-lg" title="Share to Facebook"></i></a>
+					<a href="https://twitter.com/intent/tweet?url=https://www.fliptop.com.ph/articles/{{ $article->slug }}" target="_blank"> <i class="fab fa-twitter fa-lg" title="Share to Twitter"></i></a>
 				</div>
 				<hr>
 				<img src="{{ Voyager::image( $article->image ) }}" style="width:100%">

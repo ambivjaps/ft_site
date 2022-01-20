@@ -27,7 +27,7 @@
             <li class="mb-1"><a class="link-warning text-decoration-none" href="#">Terms</a></li>
           </ul>
         </div>
-        <div class="col-6 col-md">
+        <div class="col-12 col-md mt-2">
           <div class="ft-soc">
   				  <a href="https://www.facebook.com/fliptop.battleleague" target="_blank"> <i class="fab fa-facebook fa-lg"></i></a>
   				  <a href="https://www.twitter.com/FlipTop_Battles" target="_blank"> <i class="fab fa-twitter fa-lg"></i></a>
