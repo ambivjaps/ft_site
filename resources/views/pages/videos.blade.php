@@ -43,17 +43,19 @@
 	  	@endforeach
 	  	</div>
 
-	  	<div class="row my-4">
-		@foreach($battles as $battle)
-			<div class="col-md-3 col-6 my-3">
-				<a href="/videos/battle/{{ $battle->slug }}">
-					<img src="{{ Voyager::image( $battle->logo ) }}" title="{{ $battle->title }}" style="width:100%">
-					<div class="ft-article"><h4 class="mt-3">{{ $battle->title }}</h4></div>
-				</a>
-				<hr>
-				<div class="ft-year"><span class="badge bg-warning"> {{ $battle->year }} </div></span>
+	  	<div class="row my-4 mb-5">
+			<div class="owl-carousel owl-theme">
+			@foreach($battles as $battle)
+				<div class="ml-2 mr-2">
+					<a href="/videos/battle/{{ $battle->slug }}">
+						<img src="{{ Voyager::image( $battle->logo ) }}" title="{{ $battle->title }}" style="width:100%">
+						<div class="ft-article"><h4 class="mt-3">{{ $battle->title }}</h4></div>
+					</a>
+					<hr>
+					<div class="ft-year"><span class="badge bg-warning"> {{ $battle->year }} </div></span>
+				</div>
+			@endforeach
 			</div>
-		@endforeach
 		</div>
 
 		<div class="ft-feature"> <h3> LIVE PERFORMANCES </h3> </div>
@@ -97,17 +99,19 @@
 	  	@endforeach
 	  	</div>
 
-	  	<div class="row my-4">
-		@foreach($segments as $segment)
-			<div class="col-md-3 col-6 my-3">
-				<a href="/videos/segment/{{ $segment->slug }}">
-					<img src="{{ Voyager::image( $segment->logo ) }}" title="{{ $segment->title }}" style="width:100%">
-					<div class="ft-article"><h4 class="mt-3">{{ $segment->title }}</h4></div>
-				</a>
-				<hr>
-				<p>{{ $segment->desc }}</p>
+	  	<div class="row my-4 mb-5">
+	  		<div class="owl-carousel owl-theme">
+			@foreach($segments as $segment)
+				<div class="ml-2 mr-2">
+					<a href="/videos/segment/{{ $segment->slug }}">
+						<img src="{{ Voyager::image( $segment->logo ) }}" title="{{ $segment->title }}" style="width:100%">
+						<div class="ft-article"><h4 class="mt-3">{{ $segment->title }}</h4></div>
+					</a>
+					<hr>
+					<p>{{ $segment->desc }}</p>
+				</div>
+			@endforeach
 			</div>
-		@endforeach
 		</div>
 
   	</div> 

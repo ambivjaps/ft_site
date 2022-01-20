@@ -126,9 +126,9 @@ class PagesController extends Controller
 
 	public function videos() 
 	{
-		$battles = EventBattle::orderByDesc('id')->take(4)->get();
+		$battles = EventBattle::orderByDesc('id')->take(10)->get();
     	$perfs = EventPerformance::orderByDesc('id')->take(4)->get();
-    	$segments = Segment::orderBy('id')->take(4)->get();
+    	$segments = Segment::orderBy('id')->take(10)->get();
 
     	$vid_battles = Battle::orderByDesc('id')->take(1)->get();
     	$vid_perfs = Performance::orderByDesc('id')->take(1)->get();
