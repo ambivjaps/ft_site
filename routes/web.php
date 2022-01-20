@@ -20,6 +20,12 @@ Route::get('/', [PagesController::class, 'index']);
 
 Route::get('/articles', [PagesController::class, 'articles']);
 
+Route::get('/articles/category/general', [PagesController::class, 'catGeneral']);
+Route::get('/articles/category/crews-in', [PagesController::class, 'catCrewsIn']);
+Route::get('/articles/category/mc-spotlight', [PagesController::class, 'catMCSpot']);
+Route::get('/articles/category/behind-the-sound', [PagesController::class, 'catBehind']);
+Route::get('/articles/category/album-review', [PagesController::class, 'catAlbum']);
+
 Route::get('/emcees', [PagesController::class, 'emcees']);
 Route::get('/emcees/metro-manila', [PagesController::class, 'emceesMM']);
 Route::get('/emcees/central-luzon', [PagesController::class, 'emceesCLuzon']);
@@ -51,14 +57,6 @@ Route::get('articles/{slug}', function($slug){
     $ads = App\Models\Ad::inRandomOrder()->take(2)->get();
 
     return view('single.article', compact('article', 'read_also', 'ads'));
-});
-
-Route::get('articles/category/{slug}', function($slug){
-    $category = App\Models\Category::where('slug', '=', $slug)->firstOrFail();
-    $articles = App\Models\Post::all()->where('status', '=', 'PUBLISHED')->sortByDesc('id');
-    $categories = App\Models\Category::all();
-
-    return view('single.category', compact('category', 'articles', 'categories'));
 });
 
 Route::get('emcees/{slug}', function($slug){

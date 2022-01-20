@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('title')
-<title> Articles | FlipTop Battle League </title>
+<title> Articles: Behind The Sound | FlipTop Battle League </title>
 @endsection
 
 @section('meta')
-<meta property="og:url"                content="https://www.fliptop.com.ph/articles" />
-<meta property="og:title"              content="Articles | FlipTop Battle League" />
+<meta property="og:url"                content="https://www.fliptop.com.ph/articles/category/behind-the-sound" />
+<meta property="og:title"              content="Articles: Behind The Sound | FlipTop Battle League" />
 <meta property="og:description"        content="The First Filipino Rap Battle League" />
 <meta property="og:image"              content="{{ URL::asset('/img/bg_og.jpg') }}" />
 <meta name="twitter:card"              content="summary_large_image">
@@ -14,22 +14,22 @@
 
 @section('content')
 
-	<div class="container">
+  <div class="container">
 
-		<div class="row my-5">
+    <div class="row my-5">
 
     <nav class="category-nav">
       <ul class="nav nav-pills nav-fill">
-        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="/articles"> All </a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/articles"> All </a> </li>
         <li class="nav-item"> <a class="nav-link" href="/articles/category/general"> General </a> </li>
         <li class="nav-item"> <a class="nav-link" href="/articles/category/crews-in"> Crew's In </a> </li>
         <li class="nav-item"> <a class="nav-link" href="/articles/category/mc-spotlight"> MC Spotlight </a> </li>
-        <li class="nav-item"> <a class="nav-link" href="/articles/category/behind-the-sound"> Behind The Sound </a> </li>
+        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="/articles/category/behind-the-sound"> Behind The Sound </a> </li>
         <li class="nav-item"> <a class="nav-link" href="/articles/category/album-review"> Album Review </a> </li>
       </ul><hr>
     </nav>
 
-    	@foreach($articles as $article)
+      @foreach($articles as $article)
         <div class="col-md-4 mt-4">
            <div class="card-box">
                 <a href="/articles/{{ $article->slug }}">
@@ -49,7 +49,7 @@
         </div>
       @endforeach
 
-    	</div>
+      </div>
 
       <ul class="pagination pagination-sm justify-content-end flex-wrap">
       {!! $articles->onEachSide(5)->links() !!}

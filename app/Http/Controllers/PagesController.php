@@ -39,9 +39,43 @@ class PagesController extends Controller
 	public function articles() 
 	{
 		$articles = Post::where('status', '=', 'PUBLISHED')->orderByDesc('id')->paginate(12);
-		$categories = Category::all();
 
-   	 	return view('pages.articles', compact('articles', 'categories'));
+   	 	return view('pages.articles', compact('articles'));
+	}
+
+	public function catGeneral()
+	{
+		$articles = Post::where('category_id', '=', '1')->orderByDesc('id')->paginate(12);
+
+   	 	return view('category.general', compact('articles'));
+	}
+
+	public function catCrewsIn()
+	{
+		$articles = Post::where('category_id', '=', '2')->orderByDesc('id')->paginate(12);
+
+   	 	return view('category.crewsin', compact('articles'));
+	}
+
+	public function catMCSpot()
+	{
+		$articles = Post::where('category_id', '=', '3')->orderByDesc('id')->paginate(12);
+
+   	 	return view('category.mcspot', compact('articles'));
+	}
+
+	public function catBehind()
+	{
+		$articles = Post::where('category_id', '=', '4')->orderByDesc('id')->paginate(12);
+
+   	 	return view('category.behind', compact('articles'));
+	}
+
+	public function catAlbum()
+	{
+		$articles = Post::where('category_id', '=', '5')->orderByDesc('id')->paginate(12);
+
+   	 	return view('category.album', compact('articles'));
 	}
 
 	/* Emcees */
