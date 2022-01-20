@@ -28,6 +28,9 @@
 				<div class="ft-soc">
 					<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.fliptop.com.ph/articles/{{ $article->slug }}" target="_blank"> <i class="fab fa-facebook fa-lg" title="Share to Facebook"></i></a>
 					<a href="https://twitter.com/intent/tweet?url=https://www.fliptop.com.ph/articles/{{ $article->slug }}" target="_blank"> <i class="fab fa-twitter fa-lg" title="Share to Twitter"></i></a>
+					<a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.fliptop.com.ph/articles/{{ $article->slug }}" target="_blank"> <i class="fab fa-linkedin fa-lg" title="Share to LinkedIn"></i></a>
+					<a href="viber://forward?text=https://www.fliptop.com.ph/articles/{{ $article->slug }}" target="_blank"> <i class="fab fa-viber fa-lg" title="Share to Viber"></i></a>
+					<a onclick="copyToClipboard()"> <i class="fas fa-link fa-lg" title="Copy link to clipboard"></i></a>
 				</div>
 				<hr>
 				<img src="{{ Voyager::image( $article->image ) }}" style="width:100%">
@@ -48,7 +51,7 @@
 		</div><hr>
 
 		<div class="col-md-4">
-			<div class="ft-feature"> <h3> READ ALSO </h3> </div>
+			<div class="ft-feature"> <h3> OTHER ARTICLES </h3> </div>
 		</div>
 
 		<div class="row mt-3 mb-5">
@@ -74,5 +77,17 @@
       @endforeach
 		</div>
   </div> 
+
+<script>
+	function copyToClipboard(text) {
+		var inputc = document.body.appendChild(document.createElement("input"));
+		inputc.value = window.location.href;
+		inputc.focus();
+		inputc.select();
+		document.execCommand('copy');
+		inputc.parentNode.removeChild(inputc);
+		alert("Link copied.");
+	}
+</script>
 
 @endsection

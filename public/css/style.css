@@ -70,6 +70,22 @@ ul a.active {
 	color: #E8BF00 !important;
 }
 
+.container {
+	animation:  transitionIn 0.80s;
+}
+
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		transform:  rotateX(-15deg);
+	}
+
+	to {
+		opacity: 1;
+		transform: rotateX(0);
+	}
+}
+
 .category-nav {
 	font-size: 13px;
 	font-weight: 600;
@@ -151,7 +167,6 @@ p a:hover {
 .ft-soc a {
 	text-decoration: none;
 	color: #FFFFFF;
-	letter-spacing: 2px;
 }
 
 .ft-soc i:hover {
@@ -298,9 +313,8 @@ p a:hover {
 
 .card-box {
     background-color: #070707;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 20px;
-    float: left;
     border-radius: 5px;
 }
 

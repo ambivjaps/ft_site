@@ -33,7 +33,7 @@
            <div class="card-box">
                 <a href="/articles/{{ $article->slug }}">
                   <div class="card-thumbnail">
-                    <img src="{{ Voyager::image( $article->image ) }}" class="img-fluid" alt="">
+                    <img src="{{ Voyager::image( $article->image ) }}" class="img-fluid" title="{{ $article->title }}">
                   </div>
                 </a>
                 <a href="/articles/{{ $article->slug }}">

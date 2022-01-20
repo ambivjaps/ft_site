@@ -5,8 +5,8 @@
    	<div class="row">
         <div class="col-12 col-md">
         	<a href="{{ URL::asset('/') }}"><img class="mb-2" src="{{ URL::asset('img/logo.png') }}" alt="FlipTop Battle League" title="FlipTop Battle League"></a>
-        	<small class="d-block mb-2">The First Filipino Rap Battle League</small>
-          <small class="d-block mb-3 text-muted">&copy; 2022 FlipTop Kru Corp.</small>
+        	<small class="d-block mb-3">The First Filipino Rap Battle League</small>
+          <p class="d-block mb-3 text-muted">&copy; 2022 FlipTop Kru Corp.</p>
         </div>
         <div class="col-6 col-md">
           <h5>Explore</h5>
@@ -29,11 +29,11 @@
         </div>
         <div class="col-12 col-md mt-2">
           <div class="ft-soc">
-  				  <a href="https://www.facebook.com/fliptop.battleleague" target="_blank"> <i class="fab fa-facebook fa-lg"></i></a>
-  				  <a href="https://www.twitter.com/FlipTop_Battles" target="_blank"> <i class="fab fa-twitter fa-lg"></i></a>
-  				  <a href="https://www.youtube.com/fliptopbattles" target="_blank"> <i class="fab fa-youtube fa-lg"></i></a>
-  				  <a href="https://www.instagram.com/fliptopbattles" target="_blank"> <i class="fab fa-instagram fa-lg"></i></a>
-  				  <a href="https://www.patreon.com/fliptop" target="_blank"> <i class="fab fa-patreon fa-lg"></i></a>
+  				  <a href="https://www.facebook.com/fliptop.battleleague" target="_blank"> <i class="fab fa-facebook fa-lg me-2"></i></a>
+  				  <a href="https://www.twitter.com/FlipTop_Battles" target="_blank"> <i class="fab fa-twitter fa-lg me-2"></i></a>
+  				  <a href="https://www.youtube.com/fliptopbattles" target="_blank"> <i class="fab fa-youtube fa-lg me-2"></i></a>
+  				  <a href="https://www.instagram.com/fliptopbattles" target="_blank"> <i class="fab fa-instagram fa-lg me-2"></i></a>
+  				  <a href="https://www.patreon.com/fliptop" target="_blank"> <i class="fab fa-patreon fa-lg me-2"></i></a>
           </div>
     			<hr>
     			<small class="d-block">Become a partner:</small>
