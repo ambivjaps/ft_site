@@ -70,20 +70,12 @@ ul a.active {
 	color: #E8BF00 !important;
 }
 
-.container {
-	animation:  transitionIn 0.80s;
+#ft-slide {
+	animation:  transitionInSlide 0.50s;
 }
 
-@keyframes transitionIn {
-	from {
-		opacity: 0;
-		transform:  rotateX(-15deg);
-	}
-
-	to {
-		opacity: 1;
-		transform: rotateX(0);
-	}
+.container {
+	animation:  transitionInContainer 0.80s;
 }
 
 .category-nav {
@@ -327,4 +319,28 @@ p a:hover {
 .card-box .card-thumbnail:hover {
     opacity: 0.8;
     transition: 0.4s all;
+}
+
+@keyframes transitionInSlide {
+	from {
+		opacity: 0;
+		transform:  rotateY(-10deg);
+	}
+
+	to {
+		opacity: 1;
+		transform: rotateY(0);
+	}
+}
+
+@keyframes transitionInContainer {
+	from {
+		opacity: 0;
+		transform:  rotateX(-15deg);
+	}
+
+	to {
+		opacity: 1;
+		transform: rotateX(0);
+	}
 }
