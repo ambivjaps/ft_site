@@ -24,7 +24,6 @@
             <li class="mb-1"><a class="link-warning text-decoration-none" href="/about">The League</a></li>
             <li class="mb-1"><a class="link-warning text-decoration-none" href="https://tryouts.fliptop.com.ph">Tryouts</a></li>
             <li class="mb-1"><a class="link-warning text-decoration-none" href="#">Privacy</a></li>
-            <li class="mb-1"><a class="link-warning text-decoration-none" href="#">Terms</a></li>
           </ul>
         </div>
         <div class="col-12 col-md mt-2">
@@ -58,7 +57,7 @@
     nav:true,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
             items:3
