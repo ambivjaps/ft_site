@@ -77,7 +77,7 @@
 			@foreach($perfs as $perf)
 				<div class="ml-2 mr-2">
 					<a href="/videos/perf/{{ $perf->slug }}">
-						<img src="{{ Voyager::image( $perf->logo ) }}" title="{{ $perf->title }}" style="width:100%">
+						<img class="ft-scroll" src="{{ Voyager::image( $perf->logo ) }}" title="{{ $perf->title }}" style="width:100%">
 						<div class="ft-article"><h4 class="mt-3">{{ $perf->title }}</h4></div>
 					</a>
 					<hr>
