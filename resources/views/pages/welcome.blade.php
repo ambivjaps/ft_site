@@ -39,6 +39,11 @@
 		<div class="row">
 				<h3> Latest Battles: </h3>
 			<div class="col-md-4">
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/dHkHLIZ6LMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Sayadd vs Tweng </h4>
+				<p> Non-Tournament | Ahon 12 (Day 2) </p>
+			</div>
+			<div class="col-md-4">
 				<iframe width="100%" height="250" src="https://www.youtube.com/embed/0tJXmIsKkBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<h4> GL vs Yuniko </h4>
 				<p> Non-Tournament | Ahon 12 (Day 1) </p>
@@ -48,11 +53,6 @@
 				<h4> Apoc vs Zend Luke </h4>
 				<p> Non-Tournament | Ahon 12 (Day 1) </p>
 			</div>	
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/AlABY9JeUUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Shernan vs Jonas </h4>
-				<p> Non-Tournament | Ahon 12 (Day 2) </p>
-			</div>
 		</div>
 		<hr>
 		<div class="row">

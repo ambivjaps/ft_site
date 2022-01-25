@@ -47,27 +47,27 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-
-  <script>
-  $('.owl-carousel').owlCarousel({
-    stagePadding: 20,
-    loop:true,
-    margin:13,
-    dots:false,
-    nav:true,
-    responsive:{
-        0:{
-            items:2
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-      }
-  })
-  </script>
 	
+  <script>
+    $('.owl-carousel').owlCarousel({
+      stagePadding: 20,
+      loop:false,
+      margin:13,
+      dots:false,
+      nav:true,
+      responsive:{
+          0:{
+              items:2
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:5
+          }
+        }
+    })
+  </script>
+  
 	</body>
 </html>
