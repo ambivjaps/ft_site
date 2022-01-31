@@ -173,7 +173,7 @@ class PagesController extends Controller
 
 	public function promos()
 	{
-	  	$promos = Promo::all();
+	  	$promos = Promo::orderByDesc('id')->get();
 
     	return view('pages.promos', compact('promos'));
 	}
