@@ -34,13 +34,13 @@
 			<div class="col-md-4">
 				<center>
 					<h1><i class="fas fa-users"></i></h1>
-					<h4 class="ft-about-title"> 6.59 MILLION SUBSCRIBERS </h4>
+					<h4 class="ft-about-title"> 6.63 MILLION SUBSCRIBERS </h4>
 				</center>
 			</div>
 			<hr>
 		</div>
 
-			<div class="youtube-player" data-id="GKgqOoOPPj4"></div>
+			<iframe class="embedvid" width="100%" height="600" src="https://www.youtube.com/embed/GKgqOoOPPj4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 		<div class="ft-about mt-4 mb-5">
 			<p> FlipTop is a grassroots, self-produced, events and artist management company, with its first brainchild in the FlipTop Battle League.<br><br>
@@ -65,7 +65,7 @@
 
 			It recently held it's 10th Anniversary culminating event in the The FlipTop Festival; a 2-day, 3-staged music festival that featured over 200 talents of the different elements from all over the country, featuring both the unsung underground heroes as well as household names that have achieved mainstream status.<br><br>
 
-			We have been viral practically twice a week for the last decade, have over 2 billion views, 6.59 million subscribers, and all in spite of the unashamed piracy prevalent in our culture as well as longstanding lack of any true sponsorship or assistance. 
+			We have been viral practically twice a week for the last decade, have over 2 billion views, 6.63 million subscribers, and all in spite of the unashamed piracy prevalent in our culture as well as longstanding lack of any true sponsorship or assistance. 
 			</p>
 		</div>
 
