@@ -29,16 +29,12 @@
 
 		<div class="row my-5">
 			@foreach($videos as $video)
-				@if($video->segment == $segment->title)
   				<div class="col-md-4 my-3">
 					<div class="youtube-player" data-id="{{ $video->url }}"></div>
 
   					<h4> {{ $video->title }} </h4><hr>
   					<p> {{ $video->desc }} </p>
   				</div>
-
-  				@endif
-
 			@endforeach
 
    		</div>

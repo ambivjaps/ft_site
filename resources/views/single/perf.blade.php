@@ -30,14 +30,10 @@
 
 		<div class="row my-5">
 			@foreach($videos as $video)
-				@if($video->event == $event_perf->title)
   				<div class="col-md-4 my-2">
 					<div class="youtube-player" data-id="{{ $video->url }}"></div><hr>
   					<h4 class="mb-4"> {{ $video->title }} </h4>
   				</div>
-
-  				@endif
-
 			@endforeach
 
    		</div>

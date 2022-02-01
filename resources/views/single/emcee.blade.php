@@ -45,25 +45,15 @@
 
 		<div class="ft-emcee-feature"> <h3> LATEST BATTLES </h3> </div>
 
-		<div class="row my-3">
-			@if($emcee->battle1 != 0)
-			<div class="col-md-4 mb-2">
-				<div class="youtube-player" data-id="{{ $emcee->battle1 }}"></div>
-			</div>
-			@endif
-
-			@if($emcee->battle2 != 0)
-			<div class="col-md-4 mb-2">
-				<div class="youtube-player" data-id="{{ $emcee->battle2 }}"></div>
-			</div>
-			@endif
-
-			@if($emcee->battle3 != 0)
-			<div class="col-md-4 mb-2">
-				<div class="youtube-player" data-id="{{ $emcee->battle3 }}"></div>
-			</div>
-			@endif
-		</div>
+		<div class="row my-3 mb-5">
+			@foreach($videos as $video)
+  				<div class="col-md-4 my-3">
+					<div class="youtube-player" data-id="{{ $video->url }}"></div>
+  					<h4> {{ $video->title }} </h4><hr>
+  					<p> {{ $video->desc }} | {{ $video->event }} </p>
+  				</div>
+			@endforeach
+   		</div>
 
 		@if($emcee->others != 0)
 
