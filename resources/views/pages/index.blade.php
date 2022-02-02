@@ -110,7 +110,7 @@
 
     <div class="row my-3 mb-5">
       <div class="col-md-4 my-3">
-        <div class="ft-feature mb-3"> <h3> LIVE PERF. </h3> </div>
+        <div class="ft-feature mb-3"> <h3> PERFORMANCES </h3> </div>
           @foreach($perfs as $perf)
           <div class="youtube-player" data-id="{{ $perf->url }}"></div>
 
