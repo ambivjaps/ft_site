@@ -124,7 +124,7 @@
 
 <script>
     $('.owl-carousel').owlCarousel({
-      stagePadding: 0,
+      stagePadding:20,
       loop:false,
       margin:15,
       dots:false,

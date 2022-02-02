@@ -147,11 +147,11 @@
 
 <script>
     $('.owl-carousel').owlCarousel({
-      stagePadding: 0,
+      stagePadding:0,
       loop:false,
       margin:15,
       dots:true,
-      nav:false,
+      nav:true,
       responsive:{
           0:{
               items:1

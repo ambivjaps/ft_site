@@ -369,10 +369,10 @@ p a:hover {
 }
 
 .owl-prev span, .owl-next span {
-	font-size: 50px;
+	font-size: 40px;
 	color: #FFFFFF;
 }
 
 .owl-theme .owl-nav [class*="owl-"]:hover {
-	background-color: #9C0607 !important;
+	background-color: transparent !important;
 }
