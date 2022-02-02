@@ -308,20 +308,17 @@ p a:hover {
     border-radius: 3px;
 }
 
-.card-box {
-    background-color: #070707;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 5px;
+.card {
+	background-color: #070707 !important;
+	margin-bottom: 20px;
 }
 
-.card-box .card-thumbnail {
+.card-thumbnail {
     max-height: 200px;
-    border-radius: 5px;
     overflow: hidden;
 }
 
-.card-box .card-thumbnail:hover {
+.card-thumbnail:hover {
     opacity: 0.8;
     transition: 0.4s all;
 }

@@ -68,21 +68,21 @@ Route::get('emcees/{slug}', function($slug){
 
 Route::get('videos/battle/{slug}', function($slug){
     $event_battle = App\Models\EventBattle::where('slug', '=', $slug)->firstOrFail();
-    $videos = App\Models\Battle::where('event', 'LIKE', '%'.$event_battle->title.'%')->get();
+    $videos = App\Models\Battle::where('event', '=', $event_battle->title)->get();
 
     return view('single.battle', compact('event_battle', 'videos'));
 });
 
 Route::get('videos/perf/{slug}', function($slug){
     $event_perf = App\Models\EventPerformance::where('slug', '=', $slug)->firstOrFail();
-    $videos = App\Models\Performance::where('event', 'LIKE', '%'.$event_perf->title.'%')->get();
+    $videos = App\Models\Performance::where('event', '=', $event_perf->title)->get();
 
     return view('single.perf', compact('event_perf', 'videos'));
 });
 
 Route::get('videos/segment/{slug}', function($slug){
     $segment = App\Models\Segment::where('slug', '=', $slug)->firstOrFail();
-    $videos = App\Models\SegmentVid::where('segment', 'LIKE', '%'.$segment->title.'%')->get();
+    $videos = App\Models\SegmentVid::where('segment', '=', $segment->title)->get();
 
     return view('single.segment', compact('segment', 'videos'));
 });

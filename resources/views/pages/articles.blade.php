@@ -31,21 +31,23 @@
 
     	@foreach($articles as $article)
         <div class="col-md-4 mt-4">
-           <div class="card-box">
-                <a href="/articles/{{ $article->slug }}">
-                  <div class="card-thumbnail">
-                    <img src="{{ Voyager::image( $article->image ) }}" class="img-fluid" title="{{ $article->title }}">
-                  </div>
-                </a>
-                <a href="/articles/{{ $article->slug }}">
-                  <div class="ft-article mt-3"><h4>{{ $article->title }}</h4></div>
-                </a>
-                <h6><span class="badge bg-light text-dark"> By {{ $article->author_name }} </span></h6>
-                <small class="text-muted">{{ $article->created_at->format('F d, Y') }}</small>
-                <hr>
-                <h6>{{ $article->excerpt }}</h6>
-                <a class="btn btn-sm btn-warning mt-2" href="/articles/{{ $article->slug }}" role="button">Read more ></a>
+          <div class="card">
+            <a href="/articles/{{ $article->slug }}">
+              <div class="card-thumbnail">
+                <img src="{{ Voyager::image( $article->image ) }}" class="card-img-top" title="{{ $article->title }}">
+              </div>
+            </a>
+            <div class="card-body">
+              <a href="/articles/{{ $article->slug }}">
+                <div class="ft-article"><h4>{{ $article->title }}</h4></div>
+              </a>
+              <h6><span class="badge bg-light text-dark"> By {{ $article->author_name }} </span></h6>
+              <small class="text-muted">{{ $article->created_at->format('F d, Y') }}</small>
+              <hr>
+              <h6>{{ $article->excerpt }}</h6>
+              <a class="btn btn-sm btn-warning float-end mt-2" href="/articles/{{ $article->slug }}" role="button">Read more ></a>
             </div>
+          </div>   
         </div>
       @endforeach
 

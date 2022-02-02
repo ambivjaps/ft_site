@@ -23,7 +23,7 @@
 				<img src="{{ Voyager::image( $promo->poster ) }}" title="{{ $promo->title }}" style="width:100%">
 			</div>
 
-			<div class="col-md-6 my-3">
+			<div class="col-md-7 my-3">
 				<h2>{{ $promo->title }}</h2><hr>
 				<p>{{ $promo->desc }}</p>
 				<a class="btn btn-warning" href="{{ $promo->link }}" target="_blank" role="button">Learn more</a>
