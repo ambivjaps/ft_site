@@ -69,8 +69,9 @@
     <div class="ft-feature"> <h3> FEATURED ARTICLES </h3> </div>
 
     <div class="row my-4">
+      <div class="owl-carousel owl-theme">
       @foreach($articles as $article)
-        <div class="col-md-4 mt-4">
+        <div class="ml-2 mr-2">
           <div class="card">
             <a href="/articles/{{ $article->slug }}">
               <div class="card-thumbnail">
@@ -90,6 +91,7 @@
           </div>   
         </div>
       @endforeach
+      </div>
     </div>
 
     <div class="ft-feature"> <h3> LATEST BATTLES </h3> </div>
@@ -138,5 +140,30 @@
 
     </div>
   </div> 
+
+@endsection
+
+@section('owl')
+
+<script>
+    $('.owl-carousel').owlCarousel({
+      stagePadding: 0,
+      loop:false,
+      margin:15,
+      dots:true,
+      nav:false,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:3
+          }
+        }
+    })
+</script>
 
 @endsection

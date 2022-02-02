@@ -75,7 +75,7 @@ ul a.active {
 }
 
 .container {
-	animation:  transitionInContainer 0.80s;
+	animation:  transitionInContainer 0.50s;
 }
 
 .category-nav {

@@ -119,3 +119,28 @@
   	</div> 
 
 @endsection
+
+@section('owl')
+
+<script>
+    $('.owl-carousel').owlCarousel({
+      stagePadding: 0,
+      loop:false,
+      margin:15,
+      dots:false,
+      nav:false,
+      responsive:{
+          0:{
+              items:2
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:5
+          }
+        }
+    })
+</script>
+
+@endsection

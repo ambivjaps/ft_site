@@ -27,3 +27,5 @@
 	@yield('content')
 
 	@include('layouts.footer')
+
+	@yield('owl')
