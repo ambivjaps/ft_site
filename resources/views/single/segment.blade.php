@@ -14,20 +14,24 @@
 
 @section('content')
 
-	<div class="container">
+	<div class="ft-event p-5 mb-3">
+		<div class="container-fluid py-2">
+			<div class="row">
+				<div class="col-md-3 mb-2">
+					<img class="rounded" src="{{ Voyager::image( $segment->logo ) }}" style="width:100%" title="{{ $segment->title }}">
+				</div>
 
-		<div class="row my-5">
-			<div class="col-md-3 mb-3">
-				<img src="{{ Voyager::image( $segment->logo ) }}" style="width:100%">
-			</div>
-
-			<div class="col-md-6">
-				<h2> {{ $segment->title }} </h2><hr>
-				<p> {{ $segment->desc }} </p>
+				<div class="col-md-9">
+					<h2 class="display-7 fw-bold"> {{ $segment->title }} </h2><hr>
+					<p> {{ $segment->desc }} </p>
+				</div>
 			</div>
 		</div>
+	</div>
 
-		<div class="row my-5">
+	<div class="container">
+
+		<div class="row my-4">
 			@foreach($videos as $video)
   				<div class="col-md-4 my-3">
 					<div class="youtube-player" data-id="{{ $video->url }}"></div>

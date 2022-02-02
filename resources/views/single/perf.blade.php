@@ -14,25 +14,29 @@
 
 @section('content')
 
-	<div class="container">
+	<div class="ft-event p-5 mb-3">
+		<div class="container-fluid py-2">
+			<div class="row">
+				<div class="col-md-3 mb-2">
+					<img class="rounded" src="{{ Voyager::image( $event_perf->logo ) }}" style="width:100%" title="{{ $event_perf->title }}">
+				</div>
 
-		<div class="row my-5">
-			<div class="col-md-3 mb-3">
-				<img src="{{ Voyager::image( $event_perf->logo ) }}" style="width:100%">
-			</div>
-
-			<div class="col-md-6">
-				<h2> {{ $event_perf->title }} </h2><hr>
-				<p> {{ $event_perf->desc }} </p>
-				<div class="ft-year"><span class="badge bg-warning"> {{ $event_perf->year }} </div></span>
+				<div class="col-md-9">
+					<h2 class="display-7 fw-bold"> {{ $event_perf->title }} </h2>
+					<div class="ft-year"><span class="badge bg-warning"> {{ $event_perf->year }} </div></span><hr>
+					<p> {{ $event_perf->desc }} </p>
+				</div>
 			</div>
 		</div>
+	</div>
 
-		<div class="row my-5">
+	<div class="container">
+
+		<div class="row my-4">
 			@foreach($videos as $video)
-  				<div class="col-md-4 my-2">
+  				<div class="col-md-4 my-3">
 					<div class="youtube-player" data-id="{{ $video->url }}"></div><hr>
-  					<h4 class="mb-4"> {{ $video->title }} </h4>
+  					<h4> {{ $video->title }} </h4>
   				</div>
 			@endforeach
 
