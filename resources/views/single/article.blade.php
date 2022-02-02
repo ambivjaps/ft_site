@@ -56,7 +56,6 @@
 
 		<div class="row mt-3 mb-5">
 		@foreach($read_also as $read)
-			@if($read->id != $article->id)
 	        <div class="col-md-3 my-3">
 	           <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url('{{ Voyager::image( $read->image ) }}'); background-size: cover; background-repeat: no-repeat;">
 	          <div class="d-flex flex-column h-100 p-3 pb-1 text-white text-shadow-1">
@@ -72,7 +71,6 @@
 	          </div>
 	        </div>
 	      	</div>
-        	@endif
 
       @endforeach
 		</div>

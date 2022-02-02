@@ -53,7 +53,7 @@ Route::get('/about', [PagesController::class, 'about']);
 
 Route::get('articles/{slug}', function($slug){
     $article = App\Models\Post::where('slug', '=', $slug)->firstOrFail();
-    $read_also = App\Models\Post::where('status', '=', 'PUBLISHED')->inRandomOrder()->take(4)->get();
+    $read_also = App\Models\Post::where('id', '!=', $article->id)->inRandomOrder()->take(4)->get();
     $ads = App\Models\Ad::inRandomOrder()->take(2)->get();
 
     return view('single.article', compact('article', 'read_also', 'ads'));
