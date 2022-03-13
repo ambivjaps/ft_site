@@ -31,28 +31,30 @@
 				<strong> #FlipTop2021 #FlipTopPOI7 </strong>
 		</center>
 
+		<br><br>
+
 		<center>
-			<iframe class="embedvid" width="100%" height="600" src="https://www.youtube.com/embed/R0E5l9jn4vM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe class="embedvid" width="100%" height="600" src="https://www.youtube.com/embed/cA8lk04Y7-s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</center>
 
 		<hr>
 		<div class="row">
 				<h3> Latest Battles: </h3>
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/O_54EQEWVNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> JDee vs JR Zero </h4>
-				<p> Non-Tournament | Ahon 12 (Day 1) </p>
-			</div>	
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/hlvC1_gUMQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Poison13 vs Akt </h4>
-				<p> Non-Tournament | Ahon 12 (Day 1) </p>
-			</div>	
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/dHkHLIZ6LMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Sayadd vs Tweng </h4>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/bs30EUK9yMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Plazma vs Fukuda </h4>
 				<p> Non-Tournament | Ahon 12 (Day 2) </p>
+			</div>	
+			<div class="col-md-4">
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/CTEjqV43HmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Lanzeta vs Damsa </h4>
+				<p> Non-Tournament | Ahon 12 (Day 1) </p>
 			</div>
+			<div class="col-md-4">
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/LLPnSbMO9Vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Harlem vs MastaFeat </h4>
+				<p> Non-Tournament | Ahon 12 (Day 1) </p>
+			</div>	
 		</div>
 		<hr>
 		<div class="row">
@@ -79,21 +81,21 @@
 		<div class="row">
 				<h3> Segments: </h3>
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/lD8MWFC1BaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> FlipSides </h4>
-				<p> Martin </p>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/cA8lk04Y7-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> FlipTop Sound Check </h4>
+				<p> Ahon 12 Day One </p>
 			</div>
 
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/vE_U3Gj1Kqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> UnggoYan </h4>
-				<p> Lanzeta 2 </p>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/0mhijQSSIGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> FlipTop Sound Check </h4>
+				<p> Ahon 12 Day Zero </p>
 			</div>
 
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/0M2adnT2OF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Das Wak </h4>
-				<p> Sports </p>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/R0E5l9jn4vM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Isabuhay 2020 + 2021 Predictions </h4>
+				<p> During Ahon 12 </p>
 			</div>
 		</div>
 
