@@ -26,35 +26,35 @@
 	<div class="container">
 		<center> 
 			<img src="{{ URL::asset('/img/logo.png') }}"> 
-				<h3> Process of Illumination 7 Tryouts </h3>
-				<p> Submissions have ended. Stay tuned for upcoming announcements! </p>
-				<strong> #FlipTop2021 #FlipTopPOI7 </strong>
+			<h3> Process of Illumination 7 Tryouts </h3>
+			<p> Submissions have ended. Stay tuned for upcoming announcements! </p>
+			<strong> #FlipTop2022 #FlipTopPOI7 </strong>
 		</center>
 
 		<br><br>
 
 		<center>
-			<iframe class="embedvid" width="100%" height="600" src="https://www.youtube.com/embed/cA8lk04Y7-s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe class="embedvid" width="100%" height="600" src="https://www.youtube.com/embed/aHEVn1YcEx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</center>
 
 		<hr>
 		<div class="row">
 				<h3> Latest Battles: </h3>
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/bs30EUK9yMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Plazma vs Fukuda </h4>
-				<p> Non-Tournament | Ahon 12 (Day 2) </p>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/hjwKvZoFPOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Pistolero vs Marshall Bonifacio </h4>
+				<p> Non-Tournament | Ahon 12 (Day 1) </p>
 			</div>	
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/CTEjqV43HmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Lanzeta vs Damsa </h4>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/nXJqEOv6SE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Kregga vs Batang Rebelde </h4>
 				<p> Non-Tournament | Ahon 12 (Day 1) </p>
 			</div>
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/LLPnSbMO9Vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Harlem vs MastaFeat </h4>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/BwuEF-d9HmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Elbiz vs Luxuria </h4>
 				<p> Non-Tournament | Ahon 12 (Day 1) </p>
-			</div>	
+			</div>
 		</div>
 		<hr>
 		<div class="row">
