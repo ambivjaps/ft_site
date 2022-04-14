@@ -34,26 +34,26 @@
 		<br><br>
 
 		<center>
-			<iframe class="embedvid" width="100%" height="600" src="https://www.youtube.com/embed/aHEVn1YcEx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe class="embedvid" width="100%" height="600" src="https://www.youtube.com/embed/o9hrd2WTeAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</center>
 
 		<hr>
 		<div class="row">
 				<h3> Latest Battles: </h3>
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/hjwKvZoFPOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Pistolero vs Marshall Bonifacio </h4>
-				<p> Non-Tournament | Ahon 12 (Day 1) </p>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/_E0bjUOpIYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Prince Rhyme vs Arma </h4>
+				<p> Non-Tournament | Ahon 12 (Day 2) </p>
 			</div>	
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/nXJqEOv6SE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Kregga vs Batang Rebelde </h4>
-				<p> Non-Tournament | Ahon 12 (Day 1) </p>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/hu44yltPMC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> CNine vs C-Quence </h4>
+				<p> Non-Tournament | Ahon 12 (Day 2) </p>
 			</div>
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/BwuEF-d9HmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Elbiz vs Luxuria </h4>
-				<p> Non-Tournament | Ahon 12 (Day 1) </p>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/14t3uPL08vU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Frooz vs Thike </h4>
+				<p> Non-Tournament | Ahon 12 (Day 2) </p>
 			</div>
 		</div>
 		<hr>
@@ -81,6 +81,12 @@
 		<div class="row">
 				<h3> Segments: </h3>
 			<div class="col-md-4">
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/aHEVn1YcEx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> FlipTop Sound Check </h4>
+				<p> Ahon 12 Day Two </p>
+			</div>
+
+			<div class="col-md-4">
 				<iframe width="100%" height="250" src="https://www.youtube.com/embed/cA8lk04Y7-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<h4> FlipTop Sound Check </h4>
 				<p> Ahon 12 Day One </p>
@@ -92,11 +98,6 @@
 				<p> Ahon 12 Day Zero </p>
 			</div>
 
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/R0E5l9jn4vM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Isabuhay 2020 + 2021 Predictions </h4>
-				<p> During Ahon 12 </p>
-			</div>
 		</div>
 
 		<hr class="mb-5">
