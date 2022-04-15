@@ -49,7 +49,7 @@
 			@foreach($battles as $battle)
 				<div class="ml-2 mr-2">
 					<a href="/videos/battle/{{ $battle->slug }}">
-						<img class="ft-scroll" src="{{ Voyager::image( $battle->logo ) }}" title="{{ $battle->title }}" style="width:100%">
+						<img class="ft-scroll rounded" src="{{ Voyager::image( $battle->logo ) }}" title="{{ $battle->title }}" style="width:100%">
 					</a>
 					<a href="/videos/battle/{{ $battle->slug }}">
 						<div class="ft-article"><h5 class="mt-3">{{ $battle->title }}</h5></div>
@@ -81,7 +81,7 @@
 			@foreach($perfs as $perf)
 				<div class="ml-2 mr-2">
 					<a href="/videos/perf/{{ $perf->slug }}">
-						<img class="ft-scroll" src="{{ Voyager::image( $perf->logo ) }}" title="{{ $perf->title }}" style="width:100%">
+						<img class="ft-scroll rounded" src="{{ Voyager::image( $perf->logo ) }}" title="{{ $perf->title }}" style="width:100%">
 					</a>
 					<a href="/videos/perf/{{ $perf->slug }}">
 						<div class="ft-article"><h5 class="mt-3">{{ $perf->title }}</h5></div>
@@ -113,7 +113,7 @@
 			@foreach($segments as $segment)
 				<div class="ml-2 mr-2">
 					<a href="/videos/segment/{{ $segment->slug }}">
-						<img class="ft-scroll" src="{{ Voyager::image( $segment->logo ) }}" title="{{ $segment->title }}" style="width:100%">
+						<img class="ft-scroll rounded" src="{{ Voyager::image( $segment->logo ) }}" title="{{ $segment->title }}" style="width:100%">
 					</a>
 					<a href="/videos/segment/{{ $segment->slug }}">
 						<div class="ft-article"><h5 class="mt-3">{{ $segment->title }}</h5></div>
