@@ -34,7 +34,7 @@
 			<div class="col-md-4">
 				<center>
 					<h1><i class="fas fa-users"></i></h1>
-					<h4 class="ft-about-title"> 6.63 MILLION SUBSCRIBERS </h4>
+					<h4 class="ft-about-title"> 6,000,000 SUBSCRIBERS AND COUNTING </h4>
 				</center>
 			</div>
 			<hr>
