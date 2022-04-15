@@ -353,6 +353,11 @@ p a:hover {
 	animation:  transitionInSlide 0.50s;
 }
 
+.ft-event-logo:hover {
+	opacity: 0.8;
+    transition: 0.4s all;
+}
+
 @keyframes transitionInSlide {
 	from {
 		opacity: 0;

@@ -33,7 +33,7 @@
 		@foreach($segments as $segment)
 			<div class="col-md-3 col-6 my-3">
 				<a href="/videos/segment/{{ $segment->slug }}">
-					<img class="rounded" src="{{ Voyager::image( $segment->logo ) }}" title="{{ $segment->title }}" style="width:100%">
+					<img class="ft-event-logo rounded" src="{{ Voyager::image( $segment->logo ) }}" title="{{ $segment->title }}" style="width:100%">
 					<div class="ft-article"><h4 class="mt-3">{{ $segment->title }}</h4></div>
 				</a>
 				<hr>
