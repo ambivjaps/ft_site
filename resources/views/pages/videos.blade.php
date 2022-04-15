@@ -69,7 +69,7 @@
 		    <div class="col-md-6 my-3">
 		      <h4>{{ $ft_perf->title }}</h4>
 		      <h6><span class="badge bg-light text-dark">{{ $ft_perf->event }}</span></h6><hr>
-			  <p>Live artist performance.</p>
+			  <p>Live artist performance. *BEST LISTENED TO ON SPEAKER OR HEAD PHONES*</p>
 		    </div>
 	  	@endforeach
 	  	</div>
