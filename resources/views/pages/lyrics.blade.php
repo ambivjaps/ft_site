@@ -37,7 +37,7 @@
 			<a href="/lyrics/{{ $lyric->slug }}" class="list-group-item list-group-item-action" style="background-color: #131313;">
 			<div class="row mb-3">
 				<div class="col-md-1 col-3">
-					<img src="{{ Voyager::image( $lyric->art ) }}" title="{{ $lyric->title }}" style="width:100%">
+					<img class="rounded" src="{{ Voyager::image( $lyric->art ) }}" title="{{ $lyric->title }}" style="width:100%">
 				</div>
 
 				<div class="col-md-7 col-8">
