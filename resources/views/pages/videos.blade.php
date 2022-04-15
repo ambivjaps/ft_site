@@ -50,7 +50,7 @@
 				<div class="ml-2 mr-2">
 					<a href="/videos/battle/{{ $battle->slug }}">
 						<img class="ft-scroll" src="{{ Voyager::image( $battle->logo ) }}" title="{{ $battle->title }}" style="width:100%">
-						<div class="ft-article"><h4 class="mt-3">{{ $battle->title }}</h4></div>
+						<div class="ft-article"><h5 class="mt-3">{{ $battle->title }}</h5></div>
 					</a>
 					<hr>
 					<div class="ft-year"><span class="badge bg-warning"> {{ $battle->year }} </div></span>
@@ -67,8 +67,9 @@
 		      <div class="youtube-player" data-id="{{ $ft_perf->url }}"></div>
 		    </div>
 		    <div class="col-md-6 my-3">
-		      <h4>{{ $ft_perf->title }}</h4><hr>
-		      <p>{{ $ft_perf->event }}</p>
+		      <h4>{{ $ft_perf->title }}</h4>
+		      <h6><span class="badge bg-light text-dark">{{ $ft_perf->event }}</span></h6><hr>
+			  <p>Live artist performance.</p>
 		    </div>
 	  	@endforeach
 	  	</div>
@@ -109,10 +110,10 @@
 				<div class="ml-2 mr-2">
 					<a href="/videos/segment/{{ $segment->slug }}">
 						<img class="ft-scroll" src="{{ Voyager::image( $segment->logo ) }}" title="{{ $segment->title }}" style="width:100%">
-						<div class="ft-article"><h4 class="mt-3">{{ $segment->title }}</h4></div>
+						<div class="ft-article"><h5 class="mt-3">{{ $segment->title }}</h5></div>
 					</a>
 					<hr>
-					<p>{{ $segment->desc }}</p>
+					<small>{{ $segment->desc }}</small>
 				</div>
 			@endforeach
 			</div>
