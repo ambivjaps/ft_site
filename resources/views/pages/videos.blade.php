@@ -80,7 +80,7 @@
 				<div class="ml-2 mr-2">
 					<a href="/videos/perf/{{ $perf->slug }}">
 						<img class="ft-scroll" src="{{ Voyager::image( $perf->logo ) }}" title="{{ $perf->title }}" style="width:100%">
-						<div class="ft-article"><h4 class="mt-3">{{ $perf->title }}</h4></div>
+						<div class="ft-article"><h5 class="mt-3">{{ $perf->title }}</h5></div>
 					</a>
 					<hr>
 					<div class="ft-year"><span class="badge bg-warning"> {{ $perf->year }} </div></span>
