@@ -101,8 +101,9 @@
         <div class="col-md-4 my-3">
           <div class="youtube-player" data-id="{{ $battle->url }}"></div>
 
-          <h4>{{ $battle->title }}</h4><hr>
-          <p><span class="badge bg-light text-dark"> {{ $battle->event }} </span> | {{ $battle->desc }}</p>
+          <h4>{{ $battle->title }}</h4>
+          <h6><span class="badge bg-light text-dark"> {{ $battle->event }} </span></h6><hr>
+          <p>{{ $battle->desc }}</p>
         </div>
       @endforeach
 

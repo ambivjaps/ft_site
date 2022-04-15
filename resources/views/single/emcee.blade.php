@@ -49,8 +49,9 @@
 			@foreach($videos as $video)
   				<div class="col-md-4 my-3">
 					<div class="youtube-player" data-id="{{ $video->url }}"></div>
-  					<h4> {{ $video->title }} </h4><hr>
-  					<p> {{ $video->desc }} | {{ $video->event }} </p>
+  					<h4> {{ $video->title }} </h4>
+					<h6><span class="badge bg-light text-dark"> {{ $video->event }} </span></h6><hr>
+  					<p> {{ $video->desc }} </p>
   				</div>
 			@endforeach
    		</div>
@@ -60,7 +61,9 @@
 		<div class="ft-emcee-feature"> <h3> OTHER MEDIA </h3> </div>
 
 		<div class="row mb-5">
-			<p> {!! $emcee->others !!} </p>	
+			<div class="ft-body">
+				<p> {!! $emcee->others !!} </p>
+			</div>
 		</div>
 		@endif
 
