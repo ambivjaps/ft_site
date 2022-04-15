@@ -5,7 +5,7 @@
    	<div class="row">
         <div class="col-12 col-md">
         	<a href="{{ URL::asset('/') }}"><img class="mb-2" src="{{ URL::asset('img/logo.png') }}" alt="FlipTop Battle League" title="FlipTop Battle League"></a>
-        	<small class="d-block mb-3">The First Filipino Rap Battle League</small>
+        	<small class="d-block mb-3">First Filipino Rap Battle League</small>
           <p class="d-block mb-3 text-muted">&copy; {{ now()->year }} FlipTop Kru Corp.</p>
         </div>
         <div class="col-6 col-md">
