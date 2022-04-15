@@ -14,7 +14,6 @@
             <li class="mb-1"><a class="link-warning text-decoration-none" href="/articles">Articles</a></li>
             <li class="mb-1"><a class="link-warning text-decoration-none" href="/emcees">Emcees</a></li>
             <li class="mb-1"><a class="link-warning text-decoration-none" href="/videos">Videos</a></li>
-            <li class="mb-1"><a class="link-warning text-decoration-none" href="/promos">Promos</a></li>
             <li class="mb-1"><a class="link-warning text-decoration-none" href="/lyrics">Lyrics</a></li>
           </ul>
         </div>
@@ -23,7 +22,7 @@
           <ul class="list-unstyled text-small">
             <li class="mb-1"><a class="link-warning text-decoration-none" href="/about">The League</a></li>
             <li class="mb-1"><a class="link-warning text-decoration-none" href="https://tryouts.fliptop.com.ph">Tryouts</a></li>
-            <li class="mb-1"><a class="link-warning text-decoration-none" href="#">Privacy</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="/promos">Promos</a></li>
           </ul>
         </div>
         <div class="col-12 col-md mt-2">
