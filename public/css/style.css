@@ -138,11 +138,6 @@ p a:hover {
 	color: #E8BF00;
 }
 
-.ft-emcee h4 {
-	font-family: MicroExtendFLF Bold;
-	color: #E8BF00;
-}
-
 .ft-emcee-feature {
 	background-color: #202020;
 	padding: 10px;
@@ -320,6 +315,32 @@ p a:hover {
 }
 
 .card-thumbnail:hover {
+    opacity: 0.8;
+    transition: 0.4s all;
+}
+
+.emcee-card {
+	margin-bottom: 20px;
+}
+
+.emcee-card-body {
+	background-color: #9C0607;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.emcee-card-body h4 {
+	font-family: MicroExtendFLF Bold;
+	color: #E8BF00;
+}
+
+.emcee-card-thumbnail {
+    max-height: 260px;
+    overflow: hidden;
+}
+
+.emcee-card-thumbnail:hover {
     opacity: 0.8;
     transition: 0.4s all;
 }

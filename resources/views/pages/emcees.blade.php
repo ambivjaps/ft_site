@@ -32,19 +32,21 @@
     	</div>
 
 		<div class="row mt-3 mb-2">
-      		@foreach($emcees as $emcee)
+			@foreach($emcees as $emcee)
         	<div class="col-md-3 my-4">
-
-          	<a href="/emcees/{{ $emcee->slug }}">
-            <img src="{{ Voyager::image( $emcee->image ) }}" style="width:100%" title="{{ $emcee->name }}">
-
-            <div class="ft-emcee"><h4 class="text-uppercase">{{ $emcee->name }}</h4></div>
-          	</a>
-
-    	</div>
-      	@endforeach
-
-	</div>
+				<a href="/emcees/{{ $emcee->slug }}">
+          			<div class="emcee-card">
+              			<div class="emcee-card-thumbnail">
+                			<img src="{{ Voyager::image( $emcee->image ) }}" class="card-img-top" title="{{ $emcee->name }}">
+             		 	</div>
+						<div class="emcee-card-body">
+							<h4 class="text-uppercase">{{ $emcee->name }}</h5>
+						</div>
+          			</div>  
+				</a> 
+        	</div>
+      		@endforeach
+		</div>
 
 	<ul class="pagination pagination-sm justify-content-end flex-wrap">
 	{!! $emcees->onEachSide(5)->links() !!}
