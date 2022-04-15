@@ -55,7 +55,7 @@
 						<div class="ft-article"><h5 class="mt-3">{{ $battle->title }}</h5></div>
 					</a>
 					<hr>
-					<div class="ft-year"><span class="badge bg-warning"> {{ $battle->year }} </div></span>
+					<h6><span class="badge bg-warning text-dark">{{ $battle->year }}</span></h6>
 				</div>
 			@endforeach
 			</div>
@@ -87,7 +87,7 @@
 						<div class="ft-article"><h5 class="mt-3">{{ $perf->title }}</h5></div>
 					</a>
 					<hr>
-					<div class="ft-year"><span class="badge bg-warning"> {{ $perf->year }} </div></span>
+					<h6><span class="badge bg-warning text-dark">{{ $perf->year }}</span></h6>
 				</div>
 			@endforeach
 			</div>
