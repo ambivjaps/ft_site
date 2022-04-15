@@ -22,17 +22,67 @@
 	</head>
 
 	<body>
-		<div class="container">
+		<div class="container mb-5">
 			<center>
 				<img src="{{ URL::asset('/img/ft_icon.png') }}">
-				<h1 class="mt-5"> Error 404 </h1>
-				<hr>
+				<div class="ft-emcee mt-3 mb-4"><h1> ERROR 404 </h1></div>
 				<h4> Page not found. </h4>
 				<i> The page you are looking for does not exist, <br> is changed, or currently not available. </i>
 				<br><br>
-				<a class="btn btn-warning" href="{{ URL::asset('/') }}" role="button">Go back to website</a>
+				<a class="btn btn-warning mb-5" href="{{ URL::asset('/') }}" role="button">Go back to website</a>
 			</center>
 		</div>
-	</body>
 
+		<div style="flex-grow:1"></div>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-3">
+					<a href="{{ URL::asset('/') }}"><img class="mb-2" src="{{ URL::asset('img/logo.png') }}" alt="FlipTop Battle League" title="FlipTop Battle League"></a>
+					<small class="d-block mb-3">First Filipino Rap Battle League</small>
+				<p class="d-block mb-3 text-muted">&copy; {{ now()->year }} FlipTop Kru Corp.</p>
+				</div>
+				<div class="col-6 col-md">
+				<h5>Explore</h5>
+				<ul class="list-unstyled text-small">
+					<li class="mb-1"><a class="link-warning text-decoration-none" href="/articles">Articles</a></li>
+					<li class="mb-1"><a class="link-warning text-decoration-none" href="/emcees">Emcees</a></li>
+					<li class="mb-1"><a class="link-warning text-decoration-none" href="/videos">Videos</a></li>
+					<li class="mb-1"><a class="link-warning text-decoration-none" href="/lyrics">Lyrics</a></li>
+				</ul>
+				</div>
+				<div class="col-6 col-md">
+				<h5>Videos</h5>
+				<ul class="list-unstyled text-small">
+					<li class="mb-1"><a class="link-warning text-decoration-none" href="/videos/battle">Battles</a></li>
+					<li class="mb-1"><a class="link-warning text-decoration-none" href="/videos/perf">Performances</a></li>
+					<li class="mb-1"><a class="link-warning text-decoration-none" href="/videos/segment">Segments</a></li>
+				</ul>
+				</div>
+				<div class="col-6 col-md">
+				<h5>About</h5>
+				<ul class="list-unstyled text-small">
+					<li class="mb-1"><a class="link-warning text-decoration-none" href="/about">The League</a></li>
+					<li class="mb-1"><a class="link-warning text-decoration-none" href="https://tryouts.fliptop.com.ph">Tryouts</a></li>
+					<li class="mb-1"><a class="link-warning text-decoration-none" href="/promos">Promos</a></li>
+				</ul>
+				</div>
+				<div class="col-12 col-md mt-2">
+				<div class="ft-soc">
+						<a href="https://www.facebook.com/fliptop.battleleague" target="_blank"> <i class="fab fa-facebook fa-lg me-2"></i></a>
+						<a href="https://www.twitter.com/FlipTop_Battles" target="_blank"> <i class="fab fa-twitter fa-lg me-2"></i></a>
+						<a href="https://www.youtube.com/fliptopbattles" target="_blank"> <i class="fab fa-youtube fa-lg me-2"></i></a>
+						<a href="https://www.instagram.com/fliptopbattles" target="_blank"> <i class="fab fa-instagram fa-lg me-2"></i></a>
+						<a href="https://www.patreon.com/fliptop" target="_blank"> <i class="fab fa-patreon fa-lg me-2"></i></a>
+				</div>
+						<hr>
+						<small class="d-block">Become a partner:</small>
+						<h5 class="ft-part">partner@fliptop.com.ph</h5>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	</body>
 </html>
