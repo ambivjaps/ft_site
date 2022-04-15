@@ -37,8 +37,9 @@
 		      <div class="youtube-player" data-id="{{ $ft_battle->url }}"></div>
 		    </div>
 			<div class="col-md-6 my-3">
-		      <h4>{{ $ft_battle->title }}</h4><hr>
-		      <p>{{ $ft_battle->desc }} | {{ $ft_battle->event }}</p>
+		      <h4>{{ $ft_battle->title }}</h4>
+			  <h6><span class="badge bg-light text-dark">{{ $ft_battle->event }}</span></h6><hr>
+		      <p>{{ $ft_battle->desc }}</p>
 		    </div>
 	  	@endforeach
 	  	</div>
@@ -95,7 +96,8 @@
 		      <div class="youtube-player" data-id="{{ $ft_segment->url }}"></div>
 		    </div>
 		    <div class="col-md-6 my-3">
-		      <h4>{{ $ft_segment->segment }} | {{ $ft_segment->title }}</h4><hr>
+		      <h4>{{ $ft_segment->title }}</h4>
+			  <h6><span class="badge bg-light text-dark">{{ $ft_segment->segment }}</span></h6><hr>
 		      <p>{{ $ft_segment->desc }}</p>
 		    </div>
 	  	@endforeach

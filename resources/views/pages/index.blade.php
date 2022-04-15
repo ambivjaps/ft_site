@@ -102,7 +102,7 @@
           <div class="youtube-player" data-id="{{ $battle->url }}"></div>
 
           <h4>{{ $battle->title }}</h4><hr>
-          <p>{{ $battle->desc }} | {{ $battle->event }}</p>
+          <p><span class="badge bg-light text-dark"> {{ $battle->event }} </span> | {{ $battle->desc }}</p>
         </div>
       @endforeach
 
