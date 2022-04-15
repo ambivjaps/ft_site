@@ -45,6 +45,7 @@
 	  	</div>
 
 	  	<div class="row my-4 mb-5">
+		 	<h5 class="display-7 fw-bold my-3"> Explore Battle Events </h5>
 			<div class="owl-carousel owl-theme">
 			@foreach($battles as $battle)
 				<div class="ml-2 mr-2">
@@ -77,6 +78,7 @@
 	  	</div>
 
 	  	<div class="row my-4 mb-5">
+		  	<h5 class="display-7 fw-bold my-3"> Explore Performances </h5>
 	  		<div class="owl-carousel owl-theme">
 			@foreach($perfs as $perf)
 				<div class="ml-2 mr-2">
@@ -109,6 +111,7 @@
 	  	</div>
 
 	  	<div class="row my-4 mb-5">
+			<h5 class="display-7 fw-bold my-3"> Explore Segments </h5>
 	  		<div class="owl-carousel owl-theme">
 			@foreach($segments as $segment)
 				<div class="ml-2 mr-2">
