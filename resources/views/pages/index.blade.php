@@ -115,8 +115,8 @@
           @foreach($perfs as $perf)
           <div class="youtube-player" data-id="{{ $perf->url }}"></div>
 
-          <h4>{{ $perf->title }}</h4><hr>
-          <p>{{ $perf->event }}</p>
+          <h4>{{ $perf->title }}</h4>
+          <h6 class="mb-4"><span class="badge bg-light text-dark"> {{ $perf->event }} </span></h6>
           @endforeach
       </div>
 
@@ -134,8 +134,8 @@
           @foreach($segments as $segment)
           <div class="youtube-player" data-id="{{ $segment->url }}"></div>
 
-          <h4>{{ $segment->title }}</h4><hr>
-          <p>{{ $segment->segment }}</p>
+          <h4>{{ $segment->title }}</h4>
+          <h6 class="mb-4"><span class="badge bg-light text-dark"> {{ $segment->segment }} </span></h6>
           @endforeach
       </div>
 
