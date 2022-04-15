@@ -49,7 +49,7 @@
 		@foreach($query_battle as $battle)
 			<div class="col-md-3 col-6 my-3">
 				<a href="/videos/battle/{{ $battle->slug }}">
-					<img src="{{ Voyager::image( $battle->logo ) }}" title="{{ $battle->title }}" style="width:100%">
+					<img class="rounded" src="{{ Voyager::image( $battle->logo ) }}" title="{{ $battle->title }}" style="width:100%">
 					<div class="ft-article"><h4 class="mt-3">{{ $battle->title }}</h4></div>
 				</a>
 				<hr>
