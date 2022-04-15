@@ -24,7 +24,7 @@ body {
 }
 
 footer {
-	background-color: #131313;
+	background-image: url("../img/bg_foot.jpg");
 	overflow: hidden;
 	width: 100%;
 	color: #FFFFFF;
