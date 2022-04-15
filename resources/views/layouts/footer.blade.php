@@ -3,7 +3,7 @@
 <footer>
   <div class="container">
    	<div class="row">
-        <div class="col-12 col-md">
+        <div class="col-12 col-md-3">
         	<a href="{{ URL::asset('/') }}"><img class="mb-2" src="{{ URL::asset('img/logo.png') }}" alt="FlipTop Battle League" title="FlipTop Battle League"></a>
         	<small class="d-block mb-3">First Filipino Rap Battle League</small>
           <p class="d-block mb-3 text-muted">&copy; {{ now()->year }} FlipTop Kru Corp.</p>
@@ -15,6 +15,14 @@
             <li class="mb-1"><a class="link-warning text-decoration-none" href="/emcees">Emcees</a></li>
             <li class="mb-1"><a class="link-warning text-decoration-none" href="/videos">Videos</a></li>
             <li class="mb-1"><a class="link-warning text-decoration-none" href="/lyrics">Lyrics</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Videos</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="/videos/battle">Battles</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="/videos/perf">Performances</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="/videos/segment">Segments</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
