@@ -53,7 +53,7 @@
 						<img class="ft-scroll rounded" src="{{ Voyager::image( $battle->logo ) }}" title="{{ $battle->title }}" style="width:100%">
 					</a>
 					<a href="/videos/battle/{{ $battle->slug }}">
-						<div class="ft-article"><h5 class="mt-3">{{ $battle->title }}</h5></div>
+						<div class="ft-article"><p class="mt-3">{{ $battle->title }}</p></div>
 					</a>
 					<hr>
 					<h6><span class="badge bg-warning text-dark">{{ $battle->year }}</span></h6>
