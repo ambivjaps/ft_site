@@ -86,7 +86,7 @@
 						<img class="ft-scroll rounded" src="{{ Voyager::image( $perf->logo ) }}" title="{{ $perf->title }}" style="width:100%">
 					</a>
 					<a href="/videos/perf/{{ $perf->slug }}">
-						<div class="ft-article"><h5 class="mt-3">{{ $perf->title }}</h5></div>
+						<div class="ft-article"><h6 class="mt-3">{{ $perf->title }}</h6></div>
 					</a>
 					<hr>
 					<h6><span class="badge bg-warning text-dark">{{ $perf->year }}</span></h6>
@@ -119,7 +119,7 @@
 						<img class="ft-scroll rounded" src="{{ Voyager::image( $segment->logo ) }}" title="{{ $segment->title }}" style="width:100%">
 					</a>
 					<a href="/videos/segment/{{ $segment->slug }}">
-						<div class="ft-article"><h5 class="mt-3">{{ $segment->title }}</h5></div>
+						<div class="ft-article"><h6 class="mt-3">{{ $segment->title }}</h6></div>
 					</a>
 					<hr>
 					<small>{{ $segment->desc }}</small>
