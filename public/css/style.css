@@ -126,6 +126,10 @@ p a:hover {
 	color: #E8BF00;
 }
 
+.ft-article h6:hover {
+	color: #E8BF00;
+}
+
 .ft-emcee {
 	background-color: #9C0607;
 	padding: 10px;
