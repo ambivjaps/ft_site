@@ -55,7 +55,6 @@
 					<a href="/videos/battle/{{ $battle->slug }}">
 						<div class="ft-article"><h6 class="mt-3">{{ $battle->title }}</h6></div>
 					</a>
-					<hr>
 					<h6><span class="badge bg-warning text-dark">{{ $battle->year }}</span></h6>
 				</div>
 			@endforeach
@@ -88,7 +87,6 @@
 					<a href="/videos/perf/{{ $perf->slug }}">
 						<div class="ft-article"><h6 class="mt-3">{{ $perf->title }}</h6></div>
 					</a>
-					<hr>
 					<h6><span class="badge bg-warning text-dark">{{ $perf->year }}</span></h6>
 				</div>
 			@endforeach
