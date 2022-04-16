@@ -26,7 +26,7 @@
 			<div class="col-md-7 my-3">
 				<h2>{{ $promo->title }}</h2><hr>
 				<p>{{ $promo->desc }}</p>
-				<a class="btn btn-warning" href="{{ $promo->link }}" target="_blank" role="button">Learn more</a>
+				<a class="btn btn-warning" href="{{ $promo->link }}" target="_blank" role="button">Learn more ></a>
 			</div>
 		@endforeach
 
