@@ -96,9 +96,10 @@ Route::get('radio/{slug}', function($slug){
 
 Route::get('lyrics/{slug}', function($slug){
     $lyric = App\Models\Lyric::where('slug', '=', $slug)->firstOrFail();
+    $read_also = App\Models\Lyric::where('id', '!=', $lyric->id)->inRandomOrder()->take(5)->get();
     $ads = App\Models\Ad::inRandomOrder()->take(2)->get();
 
-    return view('single.lyric', compact('lyric', 'ads'));
+    return view('single.lyric', compact('lyric', 'read_also','ads'));
 });
 
 

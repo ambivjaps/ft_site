@@ -46,7 +46,34 @@
 				@endforeach
 				</div>
 			</div>
+		</div><hr>
+
+		<div class="col-md-4">
+			<div class="ft-feature"> <h3> OTHER LYRICS </h3> </div>
 		</div>
-  	</div> 
+
+		<div class="row mt-3 mb-5">
+			<div class="list-group mb-3">
+			@foreach($read_also as $read)	
+			<a href="/lyrics/{{ $read->slug }}" class="list-group-item list-group-item-action" style="background-color: #131313;">
+				<div class="row mb-3">
+					<div class="col-md-1 col-3">
+						<img class="ft-event-logo rounded" src="{{ Voyager::image( $read->art ) }}" title="{{ $read->title }}" style="width:100%">
+					</div>
+
+					<div class="col-md-7 col-8">
+						<h5> {{ $read->title }} </h5>
+						<h6> {{ $read->album }} </h6>
+						<h6> {{ $read->artist }} </h6>
+						<h6><span class="badge bg-warning text-dark">{{ $read->year }}</span></h6>
+					</div>
+				</div>
+			</a>
+			@endforeach
+
+			</div>
+		</div>
+
+	</div>
 
 @endsection
