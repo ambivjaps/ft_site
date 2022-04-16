@@ -51,7 +51,7 @@
 					<div class="youtube-player" data-id="{{ $video->url }}"></div>
   					<h4> {{ $video->title }} </h4>
 					<h6><span class="badge bg-light text-dark"> {{ $video->event }} </span></h6><hr>
-  					<p> {{ $video->desc }} </p>
+  					<small> {{ $video->desc }} </small>
   				</div>
 			@endforeach
    		</div>

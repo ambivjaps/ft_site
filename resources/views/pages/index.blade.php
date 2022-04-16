@@ -103,7 +103,7 @@
 
           <h4>{{ $battle->title }}</h4>
           <h6><span class="badge bg-light text-dark"> {{ $battle->event }} </span></h6><hr>
-          <p>{{ $battle->desc }}</p>
+          <small>{{ $battle->desc }}</small>
         </div>
       @endforeach
 
