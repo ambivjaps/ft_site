@@ -33,9 +33,11 @@
 
 		<div class="row my-4">
 			@foreach($videos as $video)
-  				<div class="col-md-4 my-3">
+  				<div class="col-md-5 my-3">
 					<div class="youtube-player" data-id="{{ $video->url }}"></div>
+				</div>
 
+				<div class="col-md-7 my-3">
   					<h4> {{ $video->title }} </h4><hr>
   					<p> {{ $video->desc }} </p>
   				</div>
