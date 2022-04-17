@@ -104,9 +104,9 @@
 
 				</div>
 			</div>
-		</div><hr>
+		</div>
 
-		<div class="col-md-4">
+		<div class="col-md-4 mt-3">
 			<div class="ft-feature"> <h3> OTHER ARTICLES </h3> </div>
 		</div>
 
