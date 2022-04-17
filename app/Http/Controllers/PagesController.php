@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
-use App\Models\Ad;
 use App\Models\Category;
 use App\Models\Emcee;
 use App\Models\Battle;
