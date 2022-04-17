@@ -53,7 +53,7 @@
 		</div>
 
 		<ul class="pagination pagination-sm justify-content-end flex-wrap">
-		{!! $lyrics->onEachSide(5)->links() !!}
+		{!! $lyrics->onEachSide(1)->links() !!}
 		</ul>
 
   	</div> 
