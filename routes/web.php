@@ -58,7 +58,7 @@ Route::get('articles/{slug}', function($slug){
     $ad_battle = App\Models\EventBattle::orderByDesc('id')->take(1)->get();
     $ad_lyric = App\Models\Lyric::inRandomOrder()->take(1)->get();
     $ad_segment = App\Models\Segment::inRandomOrder()->take(1)->get();
-    $ad_promo = App\Models\Promo::inRandomOrder()->take(1)->get();
+    $ad_promo = App\Models\Promo::inRandomOrder()->take(2)->get();
 
     return view('single.article', compact('article', 'read_also', 'ad_battle', 'ad_lyric', 'ad_segment', 'ad_promo'));
 });
@@ -101,11 +101,14 @@ Route::get('radio/{slug}', function($slug){
 Route::get('lyrics/{slug}', function($slug){
     $lyric = App\Models\Lyric::where('slug', '=', $slug)->firstOrFail();
     $read_also = App\Models\Lyric::where('id', '!=', $lyric->id)->inRandomOrder()->take(5)->get();
-    $ads = App\Models\Ad::inRandomOrder()->take(2)->get();
+    
+    $ad_battle = App\Models\EventBattle::orderByDesc('id')->take(1)->get();
+    $ad_article = App\Models\Post::orderByDesc('id')->take(1)->get();
+    $ad_segment = App\Models\Segment::inRandomOrder()->take(1)->get();
+    $ad_promo = App\Models\Promo::inRandomOrder()->take(2)->get();
 
-    return view('single.lyric', compact('lyric', 'read_also','ads'));
+    return view('single.lyric', compact('lyric', 'read_also','ad_battle', 'ad_article', 'ad_segment', 'ad_promo'));
 });
-
 
 
 /* Voyager */

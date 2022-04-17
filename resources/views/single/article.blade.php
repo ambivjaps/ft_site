@@ -45,35 +45,31 @@
 					<div class="ft-feature mb-3"> <h3> SEE ALSO </h3> </div>
 					
 					@foreach($ad_battle as $battle)		
-					<div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url('{{ Voyager::image( $battle->logo ) }}'); background-size: cover; background-repeat: no-repeat;">
-	          			<div class="d-flex flex-column h-100 p-3 pb-1 text-white text-shadow-1">
-							<a href="/videos/battle/{{ $battle->slug }}" target="_blank">
-								<div class="ft-article"><h4 class="pt-5 mt-3 mb-3 display-7 lh-1" style="text-shadow: #000 1px 0 6px;">{{ $battle->title }}</h4></div>
-							</a>
-					
-							<ul class="d-flex list-unstyled mt-auto">
-								<li class="d-flex align-items-center">
-									<h6><span class="badge bg-light text-dark">Latest Battle Event</span></h6>
-								</li>
-							</ul>
-	          			</div>
-	       	 		</div>
+						<div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url('{{ Voyager::image( $battle->logo ) }}'); background-size: cover; background-repeat: no-repeat;">
+							<div class="d-flex flex-column h-100 p-3 pb-1 text-white text-shadow-1">
+								<h6><span class="badge bg-light text-dark"> Latest Battle Event </span></h6>
+								<a href="/videos/battle/{{ $battle->slug }}" target="_blank">
+									<div class="ft-article"><h4 class="pt-5 mt-3 mb-3 display-7 lh-1" style="text-shadow: #000 1px 0 6px;">{{ $battle->title }}</h4></div>
+								</a>
+						
+								<ul class="d-flex list-unstyled mt-auto">
+									<li class="d-flex align-items-center">
+										<h6><span class="badge bg-warning text-dark">{{ $battle->year }}</span></h6>
+									</li>
+								</ul>
+							</div>
+						</div>
 					@endforeach
 
 					@foreach($ad_segment as $segment)
-					<div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url('{{ Voyager::image( $segment->logo ) }}'); background-size: cover; background-repeat: no-repeat;">
-	          			<div class="d-flex flex-column h-100 p-3 pb-1 text-white text-shadow-1">
-							<a href="/videos/segment/{{ $segment->slug }}" target="_blank">
-								<div class="ft-article"><h4 class="pt-5 mt-3 mb-3 display-7 lh-1" style="text-shadow: #000 1px 0 6px;">{{ $segment->title }}</h4></div>
-							</a>
-					
-							<ul class="d-flex list-unstyled mt-auto">
-								<li class="d-flex align-items-center">
-									<h6><span class="badge bg-light text-dark">FlipTop Original Content</span></h6>
-								</li>
-							</ul>
-	          			</div>
-	       	 		</div>
+						<div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url('{{ Voyager::image( $segment->logo ) }}'); background-size: cover; background-repeat: no-repeat;">
+							<div class="d-flex flex-column h-100 p-3 pb-1 text-white text-shadow-1">
+								<h6><span class="badge bg-light text-dark"> Segment </span></h6>
+								<a href="/videos/segment/{{ $segment->slug }}" target="_blank">
+									<div class="ft-article"><h4 class="pt-5 mt-3 mb-3 display-7 lh-1" style="text-shadow: #000 1px 0 6px;">{{ $segment->title }}</h4></div>
+								</a>
+							</div>
+						</div>
 					@endforeach
 
 					<div class="list-group mb-3">
@@ -96,25 +92,18 @@
 					</div>
 
 					@foreach($ad_promo as $promo)
-					<div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url('{{ Voyager::image( $promo->poster ) }}'); background-size: cover; background-repeat: no-repeat;">
-	          			<div class="d-flex flex-column h-100 p-3 pb-1 text-white text-shadow-1">
-						  	<h6><span class="badge bg-light text-dark">Promo</span></h6>
-							<a href="{{ $promo->link }}" target="_blank">
-								<div class="ft-article"><h4 class="pt-5 mt-3 mb-3 display-7 lh-1" style="text-shadow: #000 1px 0 6px;">{{ $promo->title }}</h4></div>
-							</a>
-					
-							<ul class="d-flex list-unstyled mt-auto">
-								<li class="d-flex align-items-center">
-									<p> {{ $promo->desc }} </p>
-								</li>
-							</ul>
-	          			</div>
-	       	 		</div>
+						<div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url('{{ Voyager::image( $promo->poster ) }}'); background-size: cover; background-repeat: no-repeat;">
+							<div class="d-flex flex-column h-100 p-3 pb-1 text-white text-shadow-1">
+								<h6><span class="badge bg-light text-dark">Promo</span></h6>
+								<a href="{{ $promo->link }}" target="_blank">
+									<div class="ft-article"><h4 class="pt-5 mt-3 mb-3 display-7 lh-1" style="text-shadow: #000 1px 0 6px;">{{ $promo->title }}</h4></div>
+								</a>
+							</div>
+						</div>
 					@endforeach
 
 				</div>
 			</div>
-				
 		</div><hr>
 
 		<div class="col-md-4">
