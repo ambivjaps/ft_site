@@ -58,7 +58,7 @@
         <h2 class="ft-about-home"> <img width="10%" src="{{ URL::asset('/img/ft_icon.png') }}" title="FlipTop Battle League"> ABOUT FLIPTOP </h2>
         <p> FlipTop is a grassroots, self-produced, events and artist management company, with its first brainchild in the FlipTop Battle League. <br><br>
 
-        The FlipTop Battle League is the Philippines’ first premier – and the world’s most-viewed – rap battle league. It is popularly credited for the resurgence and widespread acceptance of HipHop culture in the Philippines since its inception in February 2010, and continues to champion all other HipHop elements in its variety of events and online content. It is home to the country’s top HipHop talents and houses divisions in the main island groups of Luzon, Visayas, and Mindanao.</p>
+        The FlipTop Battle League is the Philippines’ first premier – and the world’s most-viewed – rap battle league. It is popularly credited for the resurgence and widespread acceptance of HipHop culture in the Philippines since its inception in February 2010, and continues to champion all other HipHop elements in its variety of events and online content. It is home to the country’s top HipHop talents and houses divisions in the main island groups of Luzon, Visayas, and Mindanao. <a href="/about"> Read more... </a></p>
 
         <a class="btn btn-warning" href="https://www.patreon.com/fliptop" target="_blank" role="button">
           <i class="fab fa-patreon"></i> Support us on Patreon</a>
