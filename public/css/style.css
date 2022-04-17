@@ -110,11 +110,11 @@ ul a.active {
 	font-family: MicroExtendFLF Bold;
 }
 
-p a {
+p a, p a > strong {
 	color: #E8BF00;
 }
 
-p a:hover {
+p a:hover, p a:hover > strong {
 	color: #9C0607;
 }
 
