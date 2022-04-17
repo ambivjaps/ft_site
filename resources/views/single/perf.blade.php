@@ -45,6 +45,29 @@
 			@endforeach
 
    		</div>
+
+		<div class="col-md-4 mt-5 mb-2">
+			<div class="ft-feature"> <h3> OTHER VIDEOS </h3> </div>
+		</div>
+
+		<div class="row my-3">
+			@foreach($watch_battle as $battle)
+			<div class="col-md-4 my-3">
+				<div class="youtube-player" data-id="{{ $battle->url }}"></div>
+				<h4>{{ $battle->title }}</h4>
+				<h6><span class="badge bg-light text-dark">{{ $battle->event }}</span></h6><hr>
+				<small>{{ $battle->desc }}</small>
+			</div>
+			@endforeach
+		
+			@foreach($watch_seg as $segment)
+			<div class="col-md-4 my-3">
+				<div class="youtube-player" data-id="{{ $segment->url }}"></div>
+				<h4>{{ $segment->title }}</h4>
+				<h6><span class="badge bg-light text-dark">{{ $segment->segment }}</span></h6>
+			</div>
+			@endforeach
+		</div>
 	</div>
 
 @endsection
