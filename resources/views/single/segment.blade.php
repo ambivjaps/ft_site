@@ -22,8 +22,9 @@
 				</div>
 
 				<div class="col-md-9">
+					<h6><span class="badge bg-light text-dark">Segment</span></h6>
 					<h2 class="display-7 fw-bold"> {{ $segment->title }} </h2><hr>
-					<p> {{ $segment->desc }} </p>
+					<small> {{ $segment->desc }} </small>
 				</div>
 			</div>
 		</div>

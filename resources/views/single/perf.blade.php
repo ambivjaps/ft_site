@@ -22,9 +22,10 @@
 				</div>
 
 				<div class="col-md-9">
+					<h6><span class="badge bg-light text-dark">Live Performance</span></h6>
 					<h2 class="display-7 fw-bold"> {{ $event_perf->title }} </h2>
 					<div class="ft-year"><span class="badge bg-warning"> {{ $event_perf->year }} </div></span><hr>
-					<p> {{ $event_perf->desc }} </p>
+					<small> {{ $event_perf->desc }} </small>
 				</div>
 			</div>
 		</div>

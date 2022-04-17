@@ -22,9 +22,10 @@
 				</div>
 
 				<div class="col-md-9">
+					<h6><span class="badge bg-light text-dark">Battle Event</span></h6>
 					<h2 class="display-7 fw-bold"> {{ $event_battle->title }} </h2>
 					<div class="ft-year"><span class="badge bg-warning"> {{ $event_battle->year }} </div></span><hr>
-					<p> {{ $event_battle->desc }} </p>
+					<small> {{ $event_battle->desc }} </small>
 				</div>
 			</div>
 		</div>
