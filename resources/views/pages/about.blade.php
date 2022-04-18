@@ -14,33 +14,38 @@
 
 @section('content')
 
-	<div class="container">
-		<div class="row my-5">
-			<hr>
-			<div class="col-md-4">
-				<center>
-					<h1><i class="fas fa-eye"></i></h1>
-					<h4 class="ft-about-title"> OVER 2 BILLION VIEWS ON YOUTUBE </h4>
-				</center>
-			</div>
+	<div class="ft-int p-5 mb-3">
+		<div class="container-fluid py-2">
+			<div class="row my-5">
+				<hr>
+				<div class="col-md-4 my-3">
+					<center>
+						<h1><i class="fas fa-eye"></i></h1>
+						<h4 class="ft-about-title"> OVER 2 BILLION VIEWS ON YOUTUBE </h4>
+					</center>
+				</div>
 
-			<div class="col-md-4">
-				<center>	
-					<h1><i class="fas fa-globe-americas"></i></h1>
-					<h4 class="ft-about-title"> WORLD'S MOST VIEWED RAP BATTLE LEAGUE </h4>
-				</center>
-			</div>
+				<div class="col-md-4 my-3">
+					<center>	
+						<h1><i class="fas fa-globe-americas"></i></h1>
+						<h4 class="ft-about-title"> WORLD'S MOST VIEWED RAP BATTLE LEAGUE </h4>
+					</center>
+				</div>
 
-			<div class="col-md-4">
-				<center>
-					<h1><i class="fas fa-users"></i></h1>
-					<h4 class="ft-about-title"> 6,000,000 SUBSCRIBERS AND COUNTING </h4>
-				</center>
+				<div class="col-md-4 my-3">
+					<center>
+						<h1><i class="fas fa-users"></i></h1>
+						<h4 class="ft-about-title"> 6 MILLION SUBSCRIBERS & COUNTING </h4>
+					</center>
+				</div>
+				<hr>
 			</div>
-			<hr>
 		</div>
+	</div>
 
-			<iframe class="embedvid" width="100%" height="600" src="https://www.youtube.com/embed/GKgqOoOPPj4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="container">
+
+		<iframe class="embedvid mt-5" width="100%" height="600" src="https://www.youtube.com/embed/GKgqOoOPPj4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 		<div class="ft-about mt-4 mb-5">
 			<p> FlipTop is a grassroots, self-produced, events and artist management company, with its first brainchild in the FlipTop Battle League.<br><br>
