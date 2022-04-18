@@ -112,7 +112,7 @@ Route::get('lyrics/{slug}', function($slug){
     $read_also = App\Models\Lyric::where('id', '!=', $lyric->id)->inRandomOrder()->take(5)->get();
     
     $ad_battle = App\Models\EventBattle::orderByDesc('id')->take(1)->get();
-    $ad_article = App\Models\Post::orderByDesc('id')->take(1)->get();
+    $ad_article = App\Models\Post::where('featured', '=', '1')->inRandomOrder()->take(1)->get();
     $ad_segment = App\Models\Segment::inRandomOrder()->take(1)->get();
     $ad_promo = App\Models\Promo::inRandomOrder()->take(2)->get();
 
