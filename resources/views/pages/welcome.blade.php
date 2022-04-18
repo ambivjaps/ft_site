@@ -39,65 +39,36 @@
 
 		<hr>
 		<div class="row">
-				<h3> Latest Battles: </h3>
+			<h3> Latest Battles: </h3>
+			@foreach($battles as $battle)
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/02tOO0Lydhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Vitrum vs Pen Pluma </h4>
-				<p> Non-Tournament | Ahon 12 (Day 2) </p>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/{{ $battle->url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> {{ $battle->title }} </h4>
+				<p> {{ $battle->desc }} | {{ $battle->event }} </p>
 			</div>
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/_E0bjUOpIYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Prince Rhyme vs Arma </h4>
-				<p> Non-Tournament | Ahon 12 (Day 2) </p>
-			</div>	
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/hu44yltPMC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> CNine vs C-Quence </h4>
-				<p> Non-Tournament | Ahon 12 (Day 2) </p>
-			</div>
+			@endforeach
 		</div>
 		<hr>
 		<div class="row">
 				<h3> The FlipTop Festival: </h3>
+			@foreach($perfs as $perf)
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/ajxpxER7ukY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Abra </h4>
-				<p> Live Performance, Day 2 </p>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/{{ $perf->url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> {{ $perf->title }} </h4>
+				<p> {{ $perf->event }} </p>
 			</div>
-
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/SusHuaVxz_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Death Threat </h4>
-				<p> Live Performance, Day 2 </p>
-			</div>
-
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/woFrBo-KisE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Skarm </h4>
-				<p> Live Performance, Day 2 </p>
-			</div>
+			@endforeach
 		</div>
 		<hr>
 		<div class="row">
 				<h3> Segments: </h3>
+			@foreach($segments as $segment)
 			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/aHEVn1YcEx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> FlipTop Sound Check </h4>
-				<p> Ahon 12 Day Two </p>
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/{{ $segment->url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> {{ $segment->title }} </h4>
+				<p> {{ $segment->segment }} </p>
 			</div>
-
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/cA8lk04Y7-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> FlipTop Sound Check </h4>
-				<p> Ahon 12 Day One </p>
-			</div>
-
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/0mhijQSSIGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> FlipTop Sound Check </h4>
-				<p> Ahon 12 Day Zero </p>
-			</div>
-
+			@endforeach
 		</div>
 
 		<hr class="mb-5">
