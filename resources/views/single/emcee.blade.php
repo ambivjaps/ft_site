@@ -67,6 +67,26 @@
 		</div>
 		@endif
 
+		<div class="col-md-4 mt-3">
+			<div class="ft-feature"> <h3> OTHER EMCEES </h3> </div>
+		</div>
+
+		<div class="row mt-3 mb-2">
+			@foreach($ad_emcee as $other_emcee)
+        	<div class="col-md-3 my-4">
+				<a href="/emcees/{{ $other_emcee->slug }}">
+          			<div class="emcee-card">
+              			<div class="emcee-card-thumbnail">
+                			<img src="{{ Voyager::image( $other_emcee->image ) }}" class="card-img-top" title="{{ $other_emcee->name }}">
+             		 	</div>
+						<div class="emcee-card-body">
+							<h4 class="text-uppercase">{{ $other_emcee->name }}</h5>
+						</div>
+          			</div>  
+				</a> 
+        	</div>
+      		@endforeach
+		</div>
 	</div>
 
 @endsection

@@ -67,7 +67,9 @@ Route::get('emcees/{slug}', function($slug){
     $emcee = App\Models\Emcee::where('slug', '=', $slug)->firstOrFail();
     $videos = App\Models\Battle::where('title', 'LIKE', '%'.$emcee->name.'%')->orderByDesc('id')->take(3)->get();
 
-    return view('single.emcee', compact('emcee', 'videos'));
+    $ad_emcee = App\Models\Emcee::where('id', '!=', $emcee->id)->inRandomOrder()->take(4)->get();
+
+    return view('single.emcee', compact('emcee', 'videos', 'ad_emcee'));
 });
 
 Route::get('videos/battle/{slug}', function($slug){
