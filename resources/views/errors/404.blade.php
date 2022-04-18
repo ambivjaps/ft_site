@@ -22,7 +22,7 @@
 	</head>
 
 	<body>
-		<div class="container mb-5">
+		<div class="container my-5">
 			<center>
 				<img src="{{ URL::asset('/img/ft_icon.png') }}">
 				<div class="ft-emcee mt-3 mb-4"><h1> ERROR 404 </h1></div>
