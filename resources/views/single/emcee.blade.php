@@ -67,11 +67,12 @@
 		</div>
 		@endif
 
+		<hr>
 		<div class="col-md-4 mt-3">
 			<div class="ft-feature"> <h3> OTHER EMCEES </h3> </div>
 		</div>
 
-		<div class="row mt-3 mb-2">
+		<div class="row mt-3 mb-3">
 			@foreach($ad_emcee as $other_emcee)
         	<div class="col-md-3 my-4">
 				<a href="/emcees/{{ $other_emcee->slug }}">

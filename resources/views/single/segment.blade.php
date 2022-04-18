@@ -46,7 +46,9 @@
 
    		</div>
 
-		<div class="col-md-4 mt-5 mb-2">
+		<hr>
+
+		<div class="col-md-4 mt-3">
 			<div class="ft-feature"> <h3> OTHER VIDEOS </h3> </div>
 		</div>
 
