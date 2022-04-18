@@ -41,6 +41,11 @@
 		<div class="row">
 				<h3> Latest Battles: </h3>
 			<div class="col-md-4">
+				<iframe width="100%" height="250" src="https://www.youtube.com/embed/02tOO0Lydhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h4> Vitrum vs Pen Pluma </h4>
+				<p> Non-Tournament | Ahon 12 (Day 2) </p>
+			</div>
+			<div class="col-md-4">
 				<iframe width="100%" height="250" src="https://www.youtube.com/embed/_E0bjUOpIYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<h4> Prince Rhyme vs Arma </h4>
 				<p> Non-Tournament | Ahon 12 (Day 2) </p>
@@ -48,11 +53,6 @@
 			<div class="col-md-4">
 				<iframe width="100%" height="250" src="https://www.youtube.com/embed/hu44yltPMC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<h4> CNine vs C-Quence </h4>
-				<p> Non-Tournament | Ahon 12 (Day 2) </p>
-			</div>
-			<div class="col-md-4">
-				<iframe width="100%" height="250" src="https://www.youtube.com/embed/14t3uPL08vU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<h4> Frooz vs Thike </h4>
 				<p> Non-Tournament | Ahon 12 (Day 2) </p>
 			</div>
 		</div>

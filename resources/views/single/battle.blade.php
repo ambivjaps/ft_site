@@ -51,7 +51,7 @@
 			<div class="ft-feature"> <h3> OTHER VIDEOS </h3> </div>
 		</div>
 
-		<div class="row my-3">
+		<div class="row my-3 mb-5">
 			@foreach($watch_perf as $perf)
 			<div class="col-md-4 my-3">
 				<div class="youtube-player" data-id="{{ $perf->url }}"></div>
