@@ -53,7 +53,7 @@ Route::get('/about', [PagesController::class, 'about']);
 
 Route::get('articles/{slug}', function($slug){
     $article = App\Models\Post::where('slug', '=', $slug)->firstOrFail();
-    $read_also = App\Models\Post::where('id', '!=', $article->id)->inRandomOrder()->take(4)->get();
+    $read_also = App\Models\Post::where('status', '=', 'PUBLISHED')->where('id', '!=', $article->id)->inRandomOrder()->take(4)->get();
 
     $ad_battle = App\Models\EventBattle::orderByDesc('id')->take(1)->get();
     $ad_lyric = App\Models\Lyric::inRandomOrder()->take(1)->get();
@@ -114,7 +114,7 @@ Route::get('lyrics/{slug}', function($slug){
     $read_also = App\Models\Lyric::where('id', '!=', $lyric->id)->inRandomOrder()->take(5)->get();
     
     $ad_battle = App\Models\EventBattle::orderByDesc('id')->take(1)->get();
-    $ad_article = App\Models\Post::where('featured', '=', '1')->inRandomOrder()->take(1)->get();
+    $ad_article = App\Models\Post::where('status', '=', 'PUBLISHED')->where('featured', '=', '1')->inRandomOrder()->take(1)->get();
     $ad_segment = App\Models\Segment::inRandomOrder()->take(1)->get();
     $ad_promo = App\Models\Promo::inRandomOrder()->take(2)->get();
 

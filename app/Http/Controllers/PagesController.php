@@ -25,7 +25,7 @@ class PagesController extends Controller
 	public function index()
 	{
 		$slides = Slide::all();
-		$articles = Post::where('featured', '=', '1')->orderByDesc('id')->take(6)->get();
+		$articles = Post::where('status', '=', 'PUBLISHED')->where('featured', '=', '1')->orderByDesc('id')->take(6)->get();
     	$battles = Battle::orderByDesc('id')->take(3)->get();
     	$perfs = Performance::orderByDesc('id')->take(3)->get();
     	$segments = SegmentVid::orderByDesc('id')->take(3)->get();
@@ -44,35 +44,35 @@ class PagesController extends Controller
 
 	public function catGeneral()
 	{
-		$articles = Post::where('category_id', '=', '1')->orderByDesc('id')->paginate(12);
+		$articles = Post::where('status', '=', 'PUBLISHED')->where('category_id', '=', '1')->orderByDesc('id')->paginate(12);
 
    	 	return view('category.general', compact('articles'));
 	}
 
 	public function catCrewsIn()
 	{
-		$articles = Post::where('category_id', '=', '2')->orderByDesc('id')->paginate(12);
+		$articles = Post::where('status', '=', 'PUBLISHED')->where('category_id', '=', '2')->orderByDesc('id')->paginate(12);
 
    	 	return view('category.crewsin', compact('articles'));
 	}
 
 	public function catMCSpot()
 	{
-		$articles = Post::where('category_id', '=', '3')->orderByDesc('id')->paginate(12);
+		$articles = Post::where('status', '=', 'PUBLISHED')->where('category_id', '=', '3')->orderByDesc('id')->paginate(12);
 
    	 	return view('category.mcspot', compact('articles'));
 	}
 
 	public function catBehind()
 	{
-		$articles = Post::where('category_id', '=', '4')->orderByDesc('id')->paginate(12);
+		$articles = Post::where('status', '=', 'PUBLISHED')->where('category_id', '=', '4')->orderByDesc('id')->paginate(12);
 
    	 	return view('category.behind', compact('articles'));
 	}
 
 	public function catAlbum()
 	{
-		$articles = Post::where('category_id', '=', '5')->orderByDesc('id')->paginate(12);
+		$articles = Post::where('status', '=', 'PUBLISHED')->where('category_id', '=', '5')->orderByDesc('id')->paginate(12);
 
    	 	return view('category.album', compact('articles'));
 	}
