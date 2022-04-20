@@ -201,7 +201,7 @@ class PagesController extends Controller
 
 	public function lyrics()
 	{
-		$lyrics = Lyric::orderBy('title')->paginate(50);
+		$lyrics = Lyric::orderBy('title')->paginate(35);
 
 		return view('pages.lyrics', compact('lyrics'));
 	}
