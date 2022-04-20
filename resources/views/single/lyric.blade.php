@@ -18,7 +18,11 @@
 		<div class="container-fluid py-2">
 			<div class="row">
 				<div class="col-md-2 mb-3">
-					<img class="rounded" src="{{ Voyager::image( $lyric->art ) }}" style="width:100%" title="{{ $lyric->title }}">
+					@if($lyric->art != 0)
+					<img class="rounded" src="{{ Voyager::image( $lyric->art ) }}" title="{{ $lyric->title }}" style="width:100%">
+					@else
+					<img class="rounded" src="{{ URL::asset('img/art_def.jpg') }}" title="{{ $lyric->title }}" style="width:100%">
+					@endif
 				</div>
 
 				<div class="col-md-9">
