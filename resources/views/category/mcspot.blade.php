@@ -54,7 +54,7 @@
       </div>
 
       <ul class="pagination pagination-sm justify-content-end flex-wrap">
-      {!! $articles->onEachSide(1)->links() !!}
+      {!! $articles->onEachSide(0)->links() !!}
       </ul>
 
   </div> 

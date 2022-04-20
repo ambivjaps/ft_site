@@ -49,7 +49,7 @@
 		</div>
 
 	<ul class="pagination pagination-sm justify-content-end flex-wrap">
-	{!! $emcees->onEachSide(1)->links() !!}
+	{!! $emcees->onEachSide(0)->links() !!}
 	</ul>
       
   </div> 
