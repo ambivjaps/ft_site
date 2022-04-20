@@ -118,7 +118,11 @@
 			<a href="/lyrics/{{ $read->slug }}" class="list-group-item list-group-item-action" style="background-color: #131313;">
 				<div class="row mb-3">
 					<div class="col-md-1 col-3">
+						@if($read->art != 0)
 						<img class="ft-event-logo rounded" src="{{ Voyager::image( $read->art ) }}" title="{{ $read->title }}" style="width:100%">
+						@else
+						<img class="ft-event-logo rounded" src="{{ URL::asset('img/art_def.jpg') }}" title="{{ $read->title }}" style="width:100%">
+						@endif
 					</div>
 
 					<div class="col-md-7 col-8">
