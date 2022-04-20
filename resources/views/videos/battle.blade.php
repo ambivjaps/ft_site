@@ -48,7 +48,7 @@
 			<div class="col-md-3 col-6 my-3">
 				<a href="/videos/battle/{{ $battle->slug }}">
 					<img class="ft-event-logo rounded" src="{{ Voyager::image( $battle->logo ) }}" title="{{ $battle->title }}" style="width:100%">
-					<div class="ft-article"><h4 class="mt-3">{{ $battle->title }}</h4></div>
+					<div class="ft-article"><h4 class="mt-3 text-break">{{ $battle->title }}</h4></div>
 				</a>
 				<hr>
 				<div class="ft-year"><span class="badge bg-warning"> {{ $battle->year }} </div></span>

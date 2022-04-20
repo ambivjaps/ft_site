@@ -26,7 +26,7 @@
 				</div>
 
 				<div class="col-md-9">
-					<h2 class="display-7 fw-bold"> {{ $lyric->title }} </h2><hr>
+					<h2 class="display-7 fw-bold text-break"> {{ $lyric->title }} </h2><hr>
 					<h6> {{ $lyric->album }} </h6>
 					<h6> {{ $lyric->artist }} </h6>
 					@if($lyric->producer != 0) <h6> Producer: {{ $lyric->producer }} </h6> @endif
@@ -126,7 +126,7 @@
 					</div>
 
 					<div class="col-md-7 col-8">
-						<h5> {{ $read->title }} </h5>
+						<h5 class="text-break"> {{ $read->title }} </h5>
 						<h6> {{ $read->album }} </h6>
 						<h6> {{ $read->artist }} </h6>
 						<h6><span class="badge bg-warning text-dark">{{ $read->year }}</span></h6>

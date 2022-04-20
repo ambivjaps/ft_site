@@ -45,7 +45,7 @@
 				</div>
 
 				<div class="col-md-7 col-8">
-					<h4> {{ $lyric->title }} </h4>
+					<h4 class="text-break"> {{ $lyric->title }} </h4>
 					<h6> {{ $lyric->album }} </h6>
 					<h6> {{ $lyric->artist }} </h6>
 					<div class="ft-year"><span class="badge bg-warning"> {{ $lyric->year }} </div></span>

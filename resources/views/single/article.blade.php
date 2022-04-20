@@ -86,7 +86,7 @@
 
 							<div class="col-md-7 col-8">
 								<h6><span class="badge bg-light text-dark">Lyrics</span></h6>
-								<h6> {{ $lyric->title }} </h6>
+								<h5 class="text-break"> {{ $lyric->title }} </h5>
 								<h6> {{ $lyric->artist }} </h6>
 								<h6><span class="badge bg-warning text-dark">{{ $lyric->year }}</span></h6>
 							</div>
