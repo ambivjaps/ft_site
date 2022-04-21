@@ -7,7 +7,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		@yield('meta')
-		
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-226818714-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-226818714-1');
+		</script>
+
 		<link rel="icon" href="{{ URL::asset('/favicon.png') }}" type="image/x-icon"/>
 		<link rel="icon" href="{{ URL::asset('/favicon-128.png') }}" type="image/x-icon" sizes="128x128">
 		<link rel="apple-touch-icon" href="{{ URL::asset('/favicon-152.png') }}" type="image/x-icon" sizes="152×152">

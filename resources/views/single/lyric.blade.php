@@ -8,7 +8,11 @@
 <meta property="og:url"                content="https://www.fliptop.com.ph/lyrics/{{ $lyric->slug }}" />
 <meta property="og:title"              content="Lyrics: {{ $lyric->title }} | FlipTop Battle League" />
 <meta property="og:description"        content="{{ $lyric->album }} | {{ $lyric->artist }}" />
+@if($lyric->art != 0)
 <meta property="og:image"              content="{{ Voyager::image( $lyric->art ) }}" />
+@else
+<meta property="og:image"              content="{{ URL::asset('img/art_def.jpg') }}" />
+@endif
 <meta name="twitter:card" 			   content="summary_large_image">
 @endsection
 
