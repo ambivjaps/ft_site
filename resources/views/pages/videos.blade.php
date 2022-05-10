@@ -119,8 +119,6 @@
 					<a href="/videos/segment/{{ $segment->slug }}">
 						<div class="ft-article"><h6 class="mt-3">{{ $segment->title }}</h6></div>
 					</a>
-					<hr>
-					<small>{{ $segment->desc }}</small>
 				</div>
 			@endforeach
 			</div>
