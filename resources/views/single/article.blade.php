@@ -8,6 +8,7 @@
 <meta property="og:url"                content="{{ URL::current() }}" />
 <meta property="og:title"              content="{{ $article->seo_title }} | FlipTop Battle League" />
 <meta property="og:description"        content="{{ $article->meta_description }}" />
+<meta property="og:type"               content="article"/>
 <meta property="og:image"              content="{{ Voyager::image( $article->image ) }}" />
 <meta property="og:image:width" 	   content="1200"/>
 <meta property="og:image:height" 	   content="630"/>
