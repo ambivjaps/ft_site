@@ -6,7 +6,7 @@
 
 @section('meta')
 <meta property="og:url"                content="{{ URL::current() }}" />
-<meta property="og:title"              content="{{ $article->seo_title }} | FlipTop Battle League" />
+<meta property="og:title"              content="{{ $article->seo_title }}" />
 <meta property="og:description"        content="{{ $article->meta_description }}" />
 <meta property="og:type"               content="article"/>
 <meta property="og:image"              content="{{ Voyager::image( $article->image ) }}" />
