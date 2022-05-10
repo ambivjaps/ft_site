@@ -49,6 +49,10 @@ nav a.nav-link:hover {
 	color: #990000;
 }
 
+nav a.nav-link:focus {
+	color: #330000;
+}
+
 nav a.active {
 	background-color: #990000;
 	color: #E8BF00;
