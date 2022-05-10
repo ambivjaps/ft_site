@@ -5,7 +5,7 @@
 @endsection
 
 @section('meta')
-<meta property="og:url"                content="https://www.fliptop.com.ph/articles/{{ $article->slug }}" />
+<meta property="og:url"                content="{{ URL::current() }}" />
 <meta property="og:title"              content="{{ $article->seo_title }} | FlipTop Battle League" />
 <meta property="og:description"        content="{{ $article->meta_description }}" />
 <meta property="og:image"              content="{{ Voyager::image( $article->image ) }}" />
@@ -28,10 +28,10 @@
 				<h6 style="font-size: 14px">Posted on: {{ $article->created_at->format('F d, Y') }}</h6>
 				<h6 style="font-size: 14px">Updated on: {{ $article->updated_at->format('F d, Y') }}</h6>
 				<div class="ft-soc">
-					<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.fliptop.com.ph/articles/{{ $article->slug }}" target="_blank"> <i class="fab fa-facebook fa-lg" title="Share to Facebook"></i></a>
-					<a href="https://twitter.com/intent/tweet?url=https://www.fliptop.com.ph/articles/{{ $article->slug }}" target="_blank"> <i class="fab fa-twitter fa-lg" title="Share to Twitter"></i></a>
-					<a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.fliptop.com.ph/articles/{{ $article->slug }}" target="_blank"> <i class="fab fa-linkedin fa-lg" title="Share to LinkedIn"></i></a>
-					<a href="viber://forward?text=https://www.fliptop.com.ph/articles/{{ $article->slug }}" target="_blank"> <i class="fab fa-viber fa-lg" title="Share to Viber"></i></a>
+					<a href="https://www.facebook.com/sharer/sharer.php?u={{ URL::current() }}" target="_blank"> <i class="fab fa-facebook fa-lg" title="Share to Facebook"></i></a>
+					<a href="https://twitter.com/intent/tweet?url={{ URL::current() }}" target="_blank"> <i class="fab fa-twitter fa-lg" title="Share to Twitter"></i></a>
+					<a href="https://www.linkedin.com/sharing/share-offsite/?url={{ URL::current() }}" target="_blank"> <i class="fab fa-linkedin fa-lg" title="Share to LinkedIn"></i></a>
+					<a href="viber://forward?text={{ URL::current() }}" target="_blank"> <i class="fab fa-viber fa-lg" title="Share to Viber"></i></a>
 					<a onclick="copyToClipboard()"> <i class="fas fa-link fa-lg" title="Copy link to clipboard"></i></a>
 				</div>
 				<hr>

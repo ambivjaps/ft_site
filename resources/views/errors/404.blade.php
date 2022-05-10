@@ -6,6 +6,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		<meta property="og:url"                content="{{ URL::current() }}" />
 		<meta property="og:title"              content="Error 404 | FlipTop Battle League" />
 		<meta property="og:description"        content="The First Filipino Rap Battle League" />
 		<meta property="og:image"              content="{{ URL::asset('/img/bg_og.jpg') }}" />

@@ -11,26 +11,26 @@
         <div class="col-6 col-md">
           <h5>Explore</h5>
           <ul class="list-unstyled text-small">
-            <li class="mb-1"><a class="link-warning text-decoration-none" href="/articles">Articles</a></li>
-            <li class="mb-1"><a class="link-warning text-decoration-none" href="/emcees">Emcees</a></li>
-            <li class="mb-1"><a class="link-warning text-decoration-none" href="/videos">Videos</a></li>
-            <li class="mb-1"><a class="link-warning text-decoration-none" href="/lyrics">Lyrics</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="{{ URL::asset('/articles') }}">Articles</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="{{ URL::asset('/emcees') }}">Emcees</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="{{ URL::asset('/videos') }}">Videos</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="{{ URL::asset('/lyrics') }}">Lyrics</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
           <h5>Videos</h5>
           <ul class="list-unstyled text-small">
-            <li class="mb-1"><a class="link-warning text-decoration-none" href="/videos/battle">Battles</a></li>
-            <li class="mb-1"><a class="link-warning text-decoration-none" href="/videos/perf">Performances</a></li>
-            <li class="mb-1"><a class="link-warning text-decoration-none" href="/videos/segment">Segments</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="{{ URL::asset('/videos/battle') }}">Battles</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="{{ URL::asset('/videos/perf') }}">Performances</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="{{ URL::asset('/videos/segment') }}">Segments</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
           <h5>About</h5>
           <ul class="list-unstyled text-small">
-            <li class="mb-1"><a class="link-warning text-decoration-none" href="/about">The League</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="{{ URL::asset('/about') }}">The League</a></li>
             <li class="mb-1"><a class="link-warning text-decoration-none" href="https://tryouts.fliptop.com.ph">Tryouts</a></li>
-            <li class="mb-1"><a class="link-warning text-decoration-none" href="/promos">Promos</a></li>
+            <li class="mb-1"><a class="link-warning text-decoration-none" href="{{ URL::asset('/promos') }}">Promos</a></li>
           </ul>
         </div>
         <div class="col-12 col-md mt-2">

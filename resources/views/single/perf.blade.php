@@ -5,7 +5,7 @@
 @endsection
 
 @section('meta')
-<meta property="og:url"                content="https://www.fliptop.com.ph/videos/perf/{{ $event_perf->slug }}" />
+<meta property="og:url"                content="{{ URL::current() }}" />
 <meta property="og:title"              content="Event: {{ $event_perf->title }} | FlipTop Battle League" />
 <meta property="og:description"        content="{{ $event_perf->desc }}" />
 <meta property="og:image"              content="{{ Voyager::image( $event_perf->logo ) }}" />

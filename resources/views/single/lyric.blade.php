@@ -5,7 +5,7 @@
 @endsection
 
 @section('meta')
-<meta property="og:url"                content="https://www.fliptop.com.ph/lyrics/{{ $lyric->slug }}" />
+<meta property="og:url"                content="{{ URL::current() }}" />
 <meta property="og:title"              content="Lyrics: {{ $lyric->title }} | FlipTop Battle League" />
 <meta property="og:description"        content="{{ $lyric->album }} | {{ $lyric->artist }}" />
 @if($lyric->art != 0)
