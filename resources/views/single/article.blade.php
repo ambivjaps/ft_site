@@ -9,6 +9,8 @@
 <meta property="og:title"              content="{{ $article->seo_title }} | FlipTop Battle League" />
 <meta property="og:description"        content="{{ $article->meta_description }}" />
 <meta property="og:image"              content="{{ Voyager::image( $article->image ) }}" />
+<meta property="og:image:width" 	   content="1200"/>
+<meta property="og:image:height" 	   content="630"/>
 <meta name="author"					   content="{{ $article->author_name }}" />
 <meta name="description"  			   content="{{ $article->meta_description }}" />
 <meta name="keywords" 				   content="{{ $article->meta_keywords }}" />
