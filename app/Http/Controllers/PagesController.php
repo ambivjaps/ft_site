@@ -70,11 +70,11 @@ class PagesController extends Controller
    	 	return view('category.behind', compact('articles'));
 	}
 
-	public function catAlbum()
+	public function catReviews()
 	{
 		$articles = Post::where('status', '=', 'PUBLISHED')->where('category_id', '=', '5')->orderByDesc('id')->paginate(12);
 
-   	 	return view('category.album', compact('articles'));
+   	 	return view('category.reviews', compact('articles'));
 	}
 
 	/* Emcees */

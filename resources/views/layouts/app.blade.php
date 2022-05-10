@@ -18,6 +18,15 @@
 		gtag('config', 'UA-226818714-1');
 		</script>
 
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-6B4WRC12MF"></script>
+		<script>
+	  	window.dataLayer = window.dataLayer || [];
+	  	function gtag(){dataLayer.push(arguments);}
+	  	gtag('js', new Date());
+
+	 	gtag('config', 'G-6B4WRC12MF');
+		</script>
+
 		<link rel="icon" href="{{ URL::asset('/favicon.png') }}" type="image/x-icon"/>
 		<link rel="icon" href="{{ URL::asset('/favicon-128.png') }}" type="image/x-icon" sizes="128x128">
 		<link rel="apple-touch-icon" href="{{ URL::asset('/favicon-152.png') }}" type="image/x-icon" sizes="152×152">
