@@ -6,9 +6,11 @@
 
 @section('meta')
 <meta property="og:url"                content="https://fliptop.com.ph/videos/perf/{{ $event_perf->slug }}" />
-<meta property="og:title"              content="Event: {{ $event_perf->title }} | FlipTop Battle League" />
+<meta property="og:title"              content="Event: {{ $event_perf->title }}" />
 <meta property="og:description"        content="{{ $event_perf->desc }}" />
 <meta property="og:image"              content="{{ Voyager::image( $event_perf->logo ) }}" />
+<meta property="og:image:width" 	   content="750"/>
+<meta property="og:image:height" 	   content="450"/>
 <meta name="twitter:card" 			   content="summary_large_image">
 <meta name="keywords"                  content="FlipTop, FlipTop Battle League, Filipino Rap Battle, Rap, Rap Battle, Hip-Hop, Filipino" />
 @endsection

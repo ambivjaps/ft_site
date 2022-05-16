@@ -6,7 +6,7 @@
 
 @section('meta')
 <meta property="og:url"                content="https://fliptop.com.ph/videos/battle" />
-<meta property="og:title"              content="Videos: Battle Events | FlipTop Battle League" />
+<meta property="og:title"              content="Videos: Battle Events" />
 <meta property="og:description"        content="The First Filipino Rap Battle League" />
 <meta property="og:image"              content="{{ URL::asset('/img/bg_og.jpg') }}" />
 <meta name="twitter:card" 			   content="summary_large_image">
