@@ -5,7 +5,7 @@
 @endsection
 
 @section('meta')
-<meta property="og:url"                content="{{ URL::current() }}" />
+<meta property="og:url"                content="https://fliptop.com.ph/lyrics/{{ $lyric->slug }}" />
 <meta property="og:title"              content="Lyrics: {{ $lyric->title }} | FlipTop Battle League" />
 <meta property="og:description"        content="{{ $lyric->album }} | {{ $lyric->artist }}" />
 @if($lyric->art != 0)
@@ -14,6 +14,7 @@
 <meta property="og:image"              content="{{ URL::asset('img/art_def.jpg') }}" />
 @endif
 <meta name="twitter:card" 			   content="summary_large_image">
+<meta name="keywords"                  content="FlipTop, FlipTop Battle League, Filipino Rap Battle, Rap, Rap Battle, Hip-Hop, Filipino" />
 @endsection
 
 @section('content')

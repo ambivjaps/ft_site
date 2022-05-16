@@ -5,11 +5,12 @@
 @endsection
 
 @section('meta')
-<meta property="og:url"                content="{{ URL::current() }}" />
+<meta property="og:url"                content="https://fliptop.com.ph/videos/segment/{{ $segment->slug }}" />
 <meta property="og:title"              content="Segment: {{ $segment->title }} | FlipTop Battle League" />
 <meta property="og:description"        content="{{ $segment->desc }}" />
 <meta property="og:image"              content="{{ Voyager::image( $segment->logo ) }}" />
 <meta name="twitter:card" 			   content="summary_large_image">
+<meta name="keywords"                  content="FlipTop, FlipTop Battle League, Filipino Rap Battle, Rap, Rap Battle, Hip-Hop, Filipino" />
 @endsection
 
 @section('content')

@@ -5,11 +5,12 @@
 @endsection
 
 @section('meta')
-<meta property="og:url"                content="{{ URL::current() }}" />
+<meta property="og:url"                content="https://fliptop.com.ph/videos/battle/{{ $event_battle->slug }}" />
 <meta property="og:title"              content="Event: {{ $event_battle->title }} | FlipTop Battle League" />
 <meta property="og:description"        content="{{ $event_battle->desc }}" />
 <meta property="og:image"              content="{{ Voyager::image( $event_battle->logo ) }}" />
 <meta name="twitter:card" 			   content="summary_large_image">
+<meta name="keywords"                  content="FlipTop, FlipTop Battle League, Filipino Rap Battle, Rap, Rap Battle, Hip-Hop, Filipino" />
 @endsection
 
 @section('content')
