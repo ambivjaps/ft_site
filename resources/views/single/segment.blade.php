@@ -5,7 +5,7 @@
 @endsection
 
 @section('meta')
-<meta property="og:url"                content="https://fliptop.com.ph/videos/segment/{{ $segment->slug }}" />
+<meta property="og:url"                content="https://www.fliptop.com.ph/videos/segment/{{ $segment->slug }}" />
 <meta property="og:title"              content="Segment: {{ $segment->title }}" />
 <meta property="og:description"        content="{{ $segment->desc }}" />
 <meta property="og:image"              content="{{ Voyager::image( $segment->logo ) }}" />

@@ -5,7 +5,7 @@
 @endsection
 
 @section('meta')
-<meta property="og:url"                content="https://fliptop.com.ph/lyrics" />
+<meta property="og:url"                content="https://www.fliptop.com.ph/lyrics" />
 <meta property="og:title"              content="Lyrics | FlipTop Battle League" />
 <meta property="og:description"        content="The First Filipino Rap Battle League" />
 <meta property="og:image"              content="{{ URL::asset('/img/bg_og.jpg') }}" />
