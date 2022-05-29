@@ -9,23 +9,26 @@
 		@yield('meta')
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-226818714-1"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-230178638-1"></script>
 		<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
 
-		gtag('config', 'UA-226818714-1');
+		gtag('config', 'UA-230178638-1');
 		</script>
 
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-6B4WRC12MF"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-TCV7T3LSXB"></script>
 		<script>
-	  	window.dataLayer = window.dataLayer || [];
-	  	function gtag(){dataLayer.push(arguments);}
-	  	gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-	 	gtag('config', 'G-6B4WRC12MF');
+		gtag('config', 'G-TCV7T3LSXB');
 		</script>
+
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2716613754101420"
+     	crossorigin="anonymous"></script>
 
 		<link rel="icon" href="{{ URL::asset('/favicon.png') }}" type="image/x-icon"/>
 		<link rel="icon" href="{{ URL::asset('/favicon-128.png') }}" type="image/x-icon" sizes="128x128">
