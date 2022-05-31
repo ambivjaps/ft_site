@@ -1,6 +1,4 @@
-<div style="flex-grow:1"></div>
-
-<footer>
+<footer class="mt-auto">
   <div class="container">
    	<div class="row">
         <div class="col-12 col-md-3">

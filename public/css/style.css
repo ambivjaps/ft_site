@@ -18,9 +18,6 @@
 body {
 	background-color: #010101 !important;
 	padding-top: 85px;
-	min-height: 120vh;
-	display: flex;
-	flex-direction: column;
 }
 
 footer {
