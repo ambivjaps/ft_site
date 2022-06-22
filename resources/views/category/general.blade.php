@@ -45,7 +45,7 @@
               <h6><span class="badge bg-light text-dark"> By {{ $article->author_name }} </span></h6>
               <small class="text-muted">{{ $article->created_at->format('F d, Y') }}</small>
               <hr>
-              <h6>{{ $article->excerpt }}</h6>
+              <p>{{ $article->excerpt }}</p>
               <a class="btn btn-sm btn-warning float-end mt-2" href="/articles/{{ $article->slug }}" role="button">Read more ></a>
             </div>
           </div>   
