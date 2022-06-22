@@ -26,8 +26,7 @@
 			<div class="col-md-9 col-md-offset-2">
 				<h2>{{ $article->title }}</h2>
 				<h5><span class="badge bg-light text-dark"> By {{ $article->author_name }} </span></h5>
-				<h6 style="font-size: 14px">Posted on: {{ $article->created_at->format('F d, Y') }}</h6>
-				<h6 style="font-size: 14px">Updated on: {{ $article->updated_at->format('F d, Y') }}</h6>
+				<p style="font-size: 14px">Posted on: {{ $article->created_at->format('F d, Y') }} | Updated on: {{ $article->updated_at->format('F d, Y') }}</p>
 				<div class="ft-soc">
 					<a href="https://www.facebook.com/sharer/sharer.php?u={{ URL::current() }}" target="_blank"> <i class="fab fa-facebook fa-lg" title="Share to Facebook"></i></a>
 					<a href="https://twitter.com/intent/tweet?url={{ URL::current() }}" target="_blank"> <i class="fab fa-twitter fa-lg" title="Share to Twitter"></i></a>
