@@ -8,6 +8,11 @@
 	src: url("../font/micro_bold.ttf");
 }
 
+@font-face {
+	font-family: Gotham;
+	src: url("../font/gotham_book.ttf");
+}
+
 * {
 	font-family: Gotham;
 	color: #FFFFFF;

@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('title')
-<title> Articles: General | FlipTop Battle League </title>
+<title> Articles: Pre-Event Reviews | FlipTop Battle League </title>
 @endsection
 
 @section('meta')
-<meta property="og:url"                content="https://www.fliptop.com.ph/articles/category/general" />
-<meta property="og:title"              content="Articles: General | FlipTop Battle League" />
+<meta property="og:url"                content="https://www.fliptop.com.ph/articles/category/pre-event-reviews" />
+<meta property="og:title"              content="Articles: Music Reviews | FlipTop Battle League" />
 <meta property="og:description"        content="The First Filipino Rap Battle League" />
 <meta property="og:image"              content="{{ URL::asset('/img/bg_og.jpg') }}" />
 <meta name="twitter:card"              content="summary_large_image">
@@ -22,12 +22,12 @@
     <nav class="category-nav">
       <ul class="nav nav-pills nav-fill">
         <li class="nav-item"> <a class="nav-link" href="/articles"> All </a> </li>
-        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="/articles/category/general"> General </a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/articles/category/general"> General </a> </li>
         <li class="nav-item"> <a class="nav-link" href="/articles/category/crews-in"> Crew's In </a> </li>
         <li class="nav-item"> <a class="nav-link" href="/articles/category/mc-spotlight"> MC Spotlight </a> </li>
         <li class="nav-item"> <a class="nav-link" href="/articles/category/behind-the-sound"> Behind The Sound </a> </li>
         <li class="nav-item"> <a class="nav-link" href="/articles/category/music-reviews"> Music Reviews </a> </li>
-        <li class="nav-item"> <a class="nav-link" href="/articles/category/pre-event-reviews"> Pre-Event Reviews </a> </li>
+        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="/articles/category/pre-event-reviews"> Pre-Event Reviews </a> </li>
       </ul><hr>
     </nav>
 

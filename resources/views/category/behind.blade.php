@@ -26,7 +26,8 @@
         <li class="nav-item"> <a class="nav-link" href="/articles/category/crews-in"> Crew's In </a> </li>
         <li class="nav-item"> <a class="nav-link" href="/articles/category/mc-spotlight"> MC Spotlight </a> </li>
         <li class="nav-item"> <a class="nav-link active" aria-current="page" href="/articles/category/behind-the-sound"> Behind The Sound </a> </li>
-        <li class="nav-item"> <a class="nav-link" href="/articles/category/reviews"> Reviews </a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/articles/category/music-reviews"> Music Reviews </a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/articles/category/pre-event-reviews"> Pre-Event Reviews </a> </li>
       </ul><hr>
     </nav>
 

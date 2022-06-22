@@ -24,7 +24,8 @@ Route::get('/articles/category/general', [PagesController::class, 'catGeneral'])
 Route::get('/articles/category/crews-in', [PagesController::class, 'catCrewsIn']);
 Route::get('/articles/category/mc-spotlight', [PagesController::class, 'catMCSpot']);
 Route::get('/articles/category/behind-the-sound', [PagesController::class, 'catBehind']);
-Route::get('/articles/category/reviews', [PagesController::class, 'catReviews']);
+Route::get('/articles/category/music-reviews', [PagesController::class, 'catMusicRev']);
+Route::get('/articles/category/pre-event-reviews', [PagesController::class, 'catEventRev']);
 
 Route::get('/emcees', [PagesController::class, 'emcees']);
 Route::get('/emcees/metro-manila', [PagesController::class, 'emceesMM']);

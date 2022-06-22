@@ -70,11 +70,18 @@ class PagesController extends Controller
    	 	return view('category.behind', compact('articles'));
 	}
 
-	public function catReviews()
+	public function catMusicRev()
 	{
 		$articles = Post::where('status', '=', 'PUBLISHED')->where('category_id', '=', '5')->orderByDesc('id')->paginate(12);
 
-   	 	return view('category.reviews', compact('articles'));
+   	 	return view('category.music-rev', compact('articles'));
+	}
+
+	public function catEventRev()
+	{
+		$articles = Post::where('status', '=', 'PUBLISHED')->where('category_id', '=', '6')->orderByDesc('id')->paginate(12);
+
+   	 	return view('category.event-rev', compact('articles'));
 	}
 
 	/* Emcees */
