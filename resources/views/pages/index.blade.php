@@ -17,11 +17,6 @@
 @section('content')
 
   <div id="ft-slide" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <ol class="carousel-indicators">
-        @foreach($slides as $slide)
-          <button type="button" data-bs-target="#ft-slide" data-bs-slide-to="{{ $loop->index }}" aria-label="Slide {{ $loop->iteration }}" @if($loop->first)class="active" aria-current="true"@endif></button>
-        @endforeach
-      </ol>
 
     <div class="carousel-inner">
         @foreach($slides as $slide)
